@@ -1,0 +1,4 @@
+[30-Aug-2011 01:37:49] PHP Warning:  require_once(/home/ericcres/public_html/wp-includes/default-embeds.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/functions.php on line 3114
+[30-Aug-2011 01:37:49] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/ericcres/public_html/wp-includes/default-embeds.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/functions.php on line 3114
+[25-Apr-2012 14:06:29] PHP Fatal error:  Call to undefined function  register_theme_directory() in /home/ericcres/public_html/wp-settings.php on line 188
+[17-Apr-2013 19:39:26] PHP Fatal error:  Call to a member function register_handler() on a non-object in /home/ericcres/public_html/wp-includes/media.php on line 953

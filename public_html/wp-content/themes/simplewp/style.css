@@ -1,0 +1,144 @@
+/*
+Theme Name: SimpleWP
+Theme URI: http://www.themelab.com/free-wordpress-themes/
+Description: Design by <a href="http://www.ceneb.com">Ceneb</a>.  WordPressed by <a href="http://www.themelab.com">Theme Lab</a>
+Version: 1.0
+Author: Theme Lab
+Author URI: http://www.themelab.com/
+*/
+
+body{background:#b9bfc3;color:#FFF;font-size:14px;font-family:tahoma;margin-bottom:10px;}
+#wrapper{width:916px;margin:0 auto;}
+#top{background:url(images/topbg.png) repeat-x;height:27px;width:916px;}
+#date{float:left;padding-left:20px;padding-top:5px;}
+#subscribe{float:right;padding-right:20px;padding-top:5px;}
+#subscribe a{color:#FFF;text-decoration:none;}
+#subscribe a:hover{text-decoration:underline;}
+#header{height:93px;width:916px;background:#FFF;color:#000;}
+#title{float:left;padding-top:16px;padding-left:20px;}
+#title a{color:#000;text-decoration:none;}
+#header h1{margin:0px;font-size:30px;}
+#header h2{margin:0px;font-size:14px;}
+
+#search{float:right;}
+ul.menu{list-style:none;margin:0px;padding:0;background:url(images/menubg.png);width:916px;height:30px;}
+ul.menu li{float:left;list-style-type:none;margin:0;}
+ul.menu li a {float:left;color:#FFF;padding-left:15px;padding-right:15px;line-height:30px;text-decoration:none;}
+ul.menu li a:visited {color:#FFF;font-weight:normal;}
+ul.menu li a:hover {background:#232626;text-decoration:none;}
+ul.menu li a:visited:hover {background:#383839;text-decoration:none;}
+ul.submenu{list-style:none;margin:0px;padding:0;background:url(images/submenubg.png);width:915px;height:20px;padding-left:1px;}
+ul.submenu li{float:left;list-style-type:none;margin:0;}
+ul.submenu li a {float:left;color:#FFF;padding-left:14px;padding-right:14px;line-height:16px;text-decoration:none;font-size:13px;text-align:center;}
+ul.submenu li a:visited {color:#FFFFFF;font-weight:normal;}
+ul.submenu li a:hover {text-decoration:underline;}
+ul.submenu li a:visited:hover {text-decoration:underline;}
+#maincontent{overflow:hidden;width:876px;background:#383a3b;padding-top:15px;padding-left:20px;padding-bottom:25px;padding-right:20px;color:#000000;}
+#content{float:left;width:588px;}
+#latestarticle{width:588px;background:#FFF;}
+
+.archivearticle{width:588px;background:#FFF;margin-bottom:10px;}
+
+.archivearticle .posttitle{float:left;}
+.archivearticle .postinfo{float:right;font-size:11px;padding-top:1px;font-weight:normal;}
+.archivearticle .postinfo a{color:#000000;text-decoration:none;}
+.archivearticle .postinfo a:hover{text-decoration:underline;}
+.archivearticle .postcontent{padding-left:10px;padding-right:10px;padding-bottom:4px;}
+
+.postcontent a {color:#000000;text-decoration:underline;}
+
+.postcontent p{margin:0; padding:10px 0 0 0;}
+
+#latestarticles{float:left;width:289px;margin-top:10px;background:#FFF;}
+#latestarticlescontent{padding-left:15px;padding-top:10px;padding-bottom:10px;padding-right:15px;}
+#latestarticlescontent h2, #latestcomments h2, .postcontent h2, .posttitle h2 {font-size:14px;margin:0;}
+#latestarticlescontent h2 a, #latestcomments h2 a, .postcontent h2 a, .posttitle h2 a{text-decoration:none;color:#000000;}
+#latestarticlescontent h2 a:hover, #latestcomments h2 a:hover, .postcontent h2 a:hover, .posttitle h2 a:hover {text-decoration:underline;}
+#latestarticlescontent p{margin-top:2px;}
+#latestcomments{float:left;width:289px;margin-top:10px;margin-left:10px;background:#FFF;}
+#latestcommentscontent{padding-left:15px;padding-top:10px;padding-bottom:10px;padding-right:15px;}
+#latestcommentscontent h2{font-size:14px;margin:0;}
+#latestcommentscontent p{margin-top:2px;}
+#flickr{float:left;width:588px;margin-top:10px;background:#FFF;}
+#flickrcontent{padding-top:10px;padding-left:5px;padding-bottom:5px;}
+#flickrcontent img{padding-left:10px;border:0;}
+.title{background:url(images/titlebg.png);height:22.5px;padding-top:4.5px;padding-left:9px;padding-right:9px;font-weight:bold;font-size:14px;}
+#latestarticle .posttitle{float:left;}
+#latestarticle .postinfo{float:right;font-size:11px;padding-top:1px;font-weight:normal;}
+#latestarticle .postinfo a{color:#000000;text-decoration:none;}
+#latestarticle .postinfo a:hover{text-decoration:underline;}
+#latestarticle .postcontent{padding-left:10px;padding-right:10px;padding-bottom:4px;}
+#sidebar{float:right;width:272px;}
+#sponsors{background:#FFF;padding-bottom:8px;overflow:hidden;}
+#sponsorscontent{padding-top:3px;padding-left:8px;padding-right:8px;}
+#sponsorscontent img{padding-top:5px;border:0;}
+.right{float:right;}
+.left{float:left;}
+.sidebar-item {margin-top:10px;background:#fff;}
+
+.sidebar-item ul {margin:0;padding:8px;list-style-type:none;}
+.sidebar-item a{color:#000000;text-decoration:none;}
+.sidebar-item a:hover{text-decoration:underline;}
+
+#subfooter{height:21px;background:#abbeca;text-align:right;padding-top:3px;padding-right:15px;}
+#subfooter a{color:#000;padding-left:10px;padding-right:10px;text-decoration:none;}
+#subfooter a:hover{text-decoration:underline;}
+#footer{background:#3f4242;height:27px;padding-top:10px;padding-left:15px;padding-right:15px;}
+#copyright{float:left;}
+#copyright a{color:#FFF;text-decoration:none;}
+#copyright a:hover{text-decoration:underline;}
+#links{float:right;}
+#links a{color:#FFF;text-decoration:none;}
+#links a:hover{text-decoration:underline;}
+.bold{font-weight:bold;}
+#search{float:right;padding-top:27px;padding-right:70px;}
+#search #field{float:left;background:#b8c7d1;border:0;height:16px;width:200px;border: solid 2px #889da9;padding-top:3px;text-indent:5px;}
+#search #button{float:left;background:#b8c7d1;border:0;height:24px;width:35px;border: solid 2px #889da9;margin-left:5px;}
+#search h2{font-size:12px;font-weight:normal;padding-bottom:4px;}
+
+.alignleft {float:left;}
+.alignright {float:right;}
+.alignleft a, .alignright a {color:#fff;}
+.nocomments {text-align:center;}
+img {
+     margin: 5px;
+     padding: 10px;
+     border: solid black 1px
+}
+.postcontent { border: 2px solid #d9e0e4; border-top:none; }
+img.avatar {float:left; padding-right:5px;
+
+#content img.centered, #content .aligncenter, #content div.aligncenter {
+	float:none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#content img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+#content img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+#content .alignright {
+	float: right;
+	}
+
+#content .alignleft {
+	float: left;
+	}
+
+img {
+border:#cc9 1px solid;
+padding:3px;
+}
+a img {
+border-bottom: #b8860b 1px solid;
+}

@@ -1,0 +1,415 @@
+[12-Aug-2011 14:34:31] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/nav-menu-template.php on line 17
+[12-Aug-2011 14:34:35] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rdf.php on line 8
+[12-Aug-2011 14:34:36] PHP Fatal error:  Class 'IXR_Server' not found in /home/ericcres/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[12-Aug-2011 14:34:40] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-scripts.php on line 19
+[12-Aug-2011 14:34:42] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration.php on line 7
+[12-Aug-2011 14:34:46] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/ms-default-filters.php on line 17
+[12-Aug-2011 14:34:47] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/class-snoopy.php on line 6
+[12-Aug-2011 14:34:49] PHP Fatal error:  Call to undefined function  wp_embed_register_handler() in /home/ericcres/public_html/wp-includes/default-embeds.php on line 33
+[12-Aug-2011 14:34:53] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/admin-bar.php on line 39
+[12-Aug-2011 14:34:57] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/shortcodes.php on line 296
+[12-Aug-2011 14:34:59] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/kses.php on line 1364
+[12-Aug-2011 14:35:01] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/post.php on line 144
+[12-Aug-2011 14:35:08] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss.php on line 8
+[12-Aug-2011 14:35:09] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom-comments.php on line 8
+[12-Aug-2011 14:35:13] PHP Fatal error:  Call to undefined function  is_admin() in /home/ericcres/public_html/wp-includes/vars.php on line 16
+[12-Aug-2011 14:35:13] PHP Fatal error:  Call to undefined function  is_robots() in /home/ericcres/public_html/wp-includes/template-loader.php on line 10
+[12-Aug-2011 14:35:19] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/category-template.php on line 773
+[12-Aug-2011 14:35:20] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 18
+[12-Aug-2011 14:35:20] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 18
+[12-Aug-2011 14:35:20] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/ms-settings.php on line 18
+[12-Aug-2011 14:35:24] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss.php on line 18
+[12-Aug-2011 14:35:25] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/post-template.php on line 965
+[12-Aug-2011 14:35:27] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-default-constants.php on line 138
+[12-Aug-2011 14:35:33] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/user.php on line 72
+[12-Aug-2011 14:35:38] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[12-Aug-2011 14:35:38] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[12-Aug-2011 14:35:40] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2-comments.php on line 8
+[12-Aug-2011 14:35:51] PHP Fatal error:  Class 'WP_Widget' not found in /home/ericcres/public_html/wp-includes/default-widgets.php on line 14
+[12-Aug-2011 14:35:52] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom.php on line 8
+[12-Aug-2011 14:35:52] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/taxonomy.php on line 102
+[12-Aug-2011 14:35:56] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/comment-template.php on line 1217
+[12-Aug-2011 14:35:57] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/theme.php on line 1167
+[12-Aug-2011 14:35:59] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2.php on line 8
+[12-Aug-2011 14:36:00] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/ericcres/public_html/wp-includes/media.php on line 703
+[12-Aug-2011 14:36:08] PHP Fatal error:  Class 'IXR_Client' not found in /home/ericcres/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[12-Aug-2011 14:36:11] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-functions.php on line 1920
+[12-Aug-2011 14:36:13] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/general-template.php on line 1285
+[12-Aug-2011 14:36:20] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss-functions.php on line 8
+[12-Aug-2011 14:36:24] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[12-Aug-2011 14:36:24] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[12-Aug-2011 14:36:24] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[12-Aug-2011 14:36:26] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/default-filters.php on line 17
+[12-Aug-2011 14:36:49] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration-functions.php on line 7
+[12-Aug-2011 14:36:55] PHP Fatal error:  Call to undefined function  is_main_site() in /home/ericcres/public_html/wp-includes/update.php on line 355
+[12-Aug-2011 14:37:05] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-styles.php on line 19
+[10-Feb-2012 08:05:31] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss-functions.php on line 8
+[10-Feb-2012 11:05:31] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss-functions.php on line 8
+[26-Sep-2012 14:26:38] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/author-template.php on line 399
+[26-Sep-2012 14:26:38] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/category-template.php on line 776
+[26-Sep-2012 14:26:39] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/admin-bar.php on line 39
+[26-Sep-2012 14:26:39] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[26-Sep-2012 14:26:39] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[26-Sep-2012 14:26:39] PHP Fatal error:  Class 'IXR_Server' not found in /home/ericcres/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[26-Sep-2012 14:26:39] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-scripts.php on line 19
+[26-Sep-2012 14:26:39] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2.php on line 8
+[26-Sep-2012 14:26:39] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2-comments.php on line 8
+[26-Sep-2012 14:26:40] PHP Fatal error:  Class 'IXR_Client' not found in /home/ericcres/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[26-Sep-2012 14:26:40] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom-comments.php on line 8
+[26-Sep-2012 14:26:40] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/general-template.php on line 1284
+[26-Sep-2012 14:26:40] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss.php on line 8
+[26-Sep-2012 14:26:40] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/class-snoopy.php on line 6
+[26-Sep-2012 14:26:40] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/kses.php on line 1374
+[26-Sep-2012 14:26:40] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-styles.php on line 19
+[26-Sep-2012 14:26:40] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-default-constants.php on line 138
+[26-Sep-2012 14:26:40] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/ericcres/public_html/wp-includes/media.php on line 707
+[26-Sep-2012 14:26:40] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/ms-default-filters.php on line 17
+[26-Sep-2012 14:26:40] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/comment-template.php on line 1218
+[26-Sep-2012 14:26:40] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-functions.php on line 1828
+[26-Sep-2012 14:26:40] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss-functions.php on line 8
+[26-Sep-2012 14:26:40] PHP Fatal error:  Call to undefined function  is_robots() in /home/ericcres/public_html/wp-includes/template-loader.php on line 10
+[26-Sep-2012 14:26:40] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/post-template.php on line 974
+[26-Sep-2012 14:26:40] PHP Fatal error:  Call to undefined function  is_main_site() in /home/ericcres/public_html/wp-includes/update.php on line 400
+[26-Sep-2012 14:26:41] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/shortcodes.php on line 334
+[26-Sep-2012 14:26:41] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/theme.php on line 1170
+[26-Sep-2012 14:26:41] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/post.php on line 153
+[26-Sep-2012 14:26:41] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/user.php on line 72
+[26-Sep-2012 14:26:41] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[26-Sep-2012 14:26:41] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[26-Sep-2012 14:26:41] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[26-Sep-2012 14:26:41] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/taxonomy.php on line 100
+[26-Sep-2012 14:26:41] PHP Fatal error:  Call to undefined function  is_admin() in /home/ericcres/public_html/wp-includes/vars.php on line 20
+[26-Sep-2012 14:26:41] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/nav-menu-template.php on line 17
+[26-Sep-2012 14:26:41] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration-functions.php on line 7
+[26-Sep-2012 14:26:41] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration.php on line 7
+[26-Sep-2012 14:26:41] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[26-Sep-2012 14:26:41] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[26-Sep-2012 14:26:41] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[26-Sep-2012 14:26:43] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/canonical.php on line 452
+[26-Sep-2012 14:26:44] PHP Fatal error:  Class 'WP_Widget' not found in /home/ericcres/public_html/wp-includes/default-widgets.php on line 14
+[26-Sep-2012 14:26:44] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom.php on line 8
+[26-Sep-2012 14:26:44] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rdf.php on line 8
+[26-Sep-2012 14:26:44] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/default-filters.php on line 17
+[26-Sep-2012 14:26:45] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss.php on line 18
+[27-Sep-2012 12:58:37] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/author-template.php on line 399
+[27-Sep-2012 12:58:37] PHP Fatal error:  Class 'IXR_Client' not found in /home/ericcres/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[27-Sep-2012 12:58:37] PHP Fatal error:  Class 'WP_Widget' not found in /home/ericcres/public_html/wp-includes/default-widgets.php on line 14
+[27-Sep-2012 12:58:37] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom.php on line 8
+[27-Sep-2012 12:58:37] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/admin-bar.php on line 39
+[27-Sep-2012 12:58:37] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/category-template.php on line 776
+[27-Sep-2012 12:58:37] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/canonical.php on line 452
+[27-Sep-2012 12:58:37] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2.php on line 8
+[27-Sep-2012 12:58:37] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/default-filters.php on line 17
+[27-Sep-2012 12:58:38] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/post-template.php on line 974
+[27-Sep-2012 12:58:38] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[27-Sep-2012 12:58:38] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[27-Sep-2012 12:58:38] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[27-Sep-2012 12:58:38] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/taxonomy.php on line 100
+[27-Sep-2012 12:58:38] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/post.php on line 153
+[27-Sep-2012 12:58:38] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss.php on line 18
+[27-Sep-2012 12:58:38] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration.php on line 7
+[27-Sep-2012 12:58:38] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[27-Sep-2012 12:58:38] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[27-Sep-2012 12:58:38] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[27-Sep-2012 12:58:38] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/nav-menu-template.php on line 17
+[27-Sep-2012 12:58:38] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/shortcodes.php on line 334
+[27-Sep-2012 12:58:38] PHP Fatal error:  Call to undefined function  is_robots() in /home/ericcres/public_html/wp-includes/template-loader.php on line 10
+[27-Sep-2012 12:58:38] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss-functions.php on line 8
+[27-Sep-2012 12:58:39] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration-functions.php on line 7
+[27-Sep-2012 12:58:39] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/theme.php on line 1170
+[27-Sep-2012 12:58:39] PHP Fatal error:  Call to undefined function  is_main_site() in /home/ericcres/public_html/wp-includes/update.php on line 400
+[27-Sep-2012 12:58:39] PHP Fatal error:  Call to undefined function  is_admin() in /home/ericcres/public_html/wp-includes/vars.php on line 20
+[27-Sep-2012 12:58:39] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/user.php on line 72
+[27-Sep-2012 12:58:39] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-functions.php on line 1828
+[27-Sep-2012 12:58:39] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-default-constants.php on line 138
+[27-Sep-2012 12:58:42] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[27-Sep-2012 12:58:42] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[27-Sep-2012 12:58:42] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss.php on line 8
+[27-Sep-2012 12:58:42] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/class-snoopy.php on line 6
+[27-Sep-2012 12:58:42] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2-comments.php on line 8
+[27-Sep-2012 12:58:42] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-styles.php on line 19
+[27-Sep-2012 12:58:43] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-scripts.php on line 19
+[27-Sep-2012 12:58:43] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/comment-template.php on line 1218
+[27-Sep-2012 12:58:43] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/ms-default-filters.php on line 17
+[27-Sep-2012 12:58:43] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/general-template.php on line 1284
+[27-Sep-2012 12:58:43] PHP Fatal error:  Class 'IXR_Server' not found in /home/ericcres/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[27-Sep-2012 12:58:43] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/kses.php on line 1374
+[27-Sep-2012 12:58:43] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom-comments.php on line 8
+[27-Sep-2012 12:58:47] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rdf.php on line 8
+[27-Sep-2012 12:58:48] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/ericcres/public_html/wp-includes/media.php on line 707
+[30-Sep-2012 12:26:28] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/canonical.php on line 452
+[30-Sep-2012 12:26:28] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/admin-bar.php on line 39
+[30-Sep-2012 12:26:28] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/category-template.php on line 776
+[30-Sep-2012 12:26:28] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/author-template.php on line 399
+[30-Sep-2012 12:26:28] PHP Fatal error:  Class 'IXR_Client' not found in /home/ericcres/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[30-Sep-2012 12:26:28] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-styles.php on line 19
+[30-Sep-2012 12:26:28] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/comment-template.php on line 1218
+[30-Sep-2012 12:26:28] PHP Fatal error:  Class 'IXR_Server' not found in /home/ericcres/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[30-Sep-2012 12:26:29] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-scripts.php on line 19
+[30-Sep-2012 12:26:29] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2-comments.php on line 8
+[30-Sep-2012 12:26:29] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2.php on line 8
+[30-Sep-2012 12:26:29] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom.php on line 8
+[30-Sep-2012 12:26:29] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/default-filters.php on line 17
+[30-Sep-2012 12:26:29] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom-comments.php on line 8
+[30-Sep-2012 12:26:29] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/kses.php on line 1374
+[30-Sep-2012 12:26:30] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/post.php on line 153
+[30-Sep-2012 12:26:30] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/post-template.php on line 974
+[30-Sep-2012 12:26:29] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/ericcres/public_html/wp-includes/media.php on line 707
+[30-Sep-2012 12:26:30] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-default-constants.php on line 138
+[30-Sep-2012 12:26:30] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[30-Sep-2012 12:26:30] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[30-Sep-2012 12:26:30] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[30-Sep-2012 12:26:30] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/ms-default-filters.php on line 17
+[30-Sep-2012 12:26:30] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-functions.php on line 1828
+[30-Sep-2012 12:26:30] PHP Fatal error:  Call to undefined function  is_main_site() in /home/ericcres/public_html/wp-includes/update.php on line 400
+[30-Sep-2012 12:26:30] PHP Fatal error:  Call to undefined function  is_robots() in /home/ericcres/public_html/wp-includes/template-loader.php on line 10
+[30-Sep-2012 12:26:30] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/theme.php on line 1170
+[30-Sep-2012 12:26:30] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/taxonomy.php on line 100
+[30-Sep-2012 12:26:30] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/user.php on line 72
+[30-Sep-2012 12:26:30] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration.php on line 7
+[30-Sep-2012 12:26:31] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[30-Sep-2012 12:26:31] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[30-Sep-2012 12:26:31] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[30-Sep-2012 12:26:31] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/shortcodes.php on line 334
+[30-Sep-2012 12:26:31] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration-functions.php on line 7
+[30-Sep-2012 12:26:31] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss.php on line 18
+[30-Sep-2012 12:26:31] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss-functions.php on line 8
+[30-Sep-2012 12:26:33] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/class-snoopy.php on line 6
+[30-Sep-2012 12:26:33] PHP Fatal error:  Class 'WP_Widget' not found in /home/ericcres/public_html/wp-includes/default-widgets.php on line 14
+[30-Sep-2012 12:26:33] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss.php on line 8
+[30-Sep-2012 12:26:34] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rdf.php on line 8
+[30-Sep-2012 12:26:34] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/general-template.php on line 1284
+[30-Sep-2012 12:26:34] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/nav-menu-template.php on line 17
+[30-Sep-2012 12:26:38] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[30-Sep-2012 12:26:38] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[30-Sep-2012 12:26:40] PHP Fatal error:  Call to undefined function  is_admin() in /home/ericcres/public_html/wp-includes/vars.php on line 20
+[01-Oct-2012 01:57:53] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/admin-bar.php on line 39
+[01-Oct-2012 01:57:53] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/category-template.php on line 776
+[01-Oct-2012 01:57:53] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/canonical.php on line 452
+[01-Oct-2012 01:57:53] PHP Fatal error:  Class 'IXR_Server' not found in /home/ericcres/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[01-Oct-2012 01:57:53] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-styles.php on line 19
+[01-Oct-2012 01:57:53] PHP Fatal error:  Class 'IXR_Client' not found in /home/ericcres/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[01-Oct-2012 01:57:53] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rdf.php on line 8
+[01-Oct-2012 01:57:54] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2-comments.php on line 8
+[01-Oct-2012 01:57:54] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/general-template.php on line 1284
+[01-Oct-2012 01:57:54] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2.php on line 8
+[01-Oct-2012 01:57:54] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/default-filters.php on line 17
+[01-Oct-2012 01:57:54] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/nav-menu-template.php on line 17
+[01-Oct-2012 01:57:54] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-default-constants.php on line 138
+[01-Oct-2012 01:57:55] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/post-template.php on line 974
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss.php on line 8
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom.php on line 8
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/ms-default-filters.php on line 17
+[01-Oct-2012 01:57:55] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[01-Oct-2012 01:57:55] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[01-Oct-2012 01:57:55] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-functions.php on line 1828
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/post.php on line 153
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration-functions.php on line 7
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration.php on line 7
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  is_admin() in /home/ericcres/public_html/wp-includes/vars.php on line 20
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/theme.php on line 1170
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/user.php on line 72
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/taxonomy.php on line 100
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss-functions.php on line 8
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  is_robots() in /home/ericcres/public_html/wp-includes/template-loader.php on line 10
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  is_main_site() in /home/ericcres/public_html/wp-includes/update.php on line 400
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss.php on line 18
+[01-Oct-2012 01:57:56] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/shortcodes.php on line 334
+[01-Oct-2012 01:57:58] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[01-Oct-2012 01:57:58] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[01-Oct-2012 01:57:58] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/author-template.php on line 399
+[01-Oct-2012 01:57:58] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-scripts.php on line 19
+[01-Oct-2012 01:57:58] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/comment-template.php on line 1218
+[01-Oct-2012 01:57:58] PHP Fatal error:  Class 'WP_Widget' not found in /home/ericcres/public_html/wp-includes/default-widgets.php on line 14
+[01-Oct-2012 01:57:58] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom-comments.php on line 8
+[01-Oct-2012 01:57:59] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/kses.php on line 1374
+[01-Oct-2012 01:57:59] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/ericcres/public_html/wp-includes/media.php on line 707
+[01-Oct-2012 01:58:00] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[01-Oct-2012 01:58:00] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[01-Oct-2012 01:58:00] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[01-Oct-2012 01:58:03] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/class-snoopy.php on line 6
+[19-Oct-2012 02:23:00] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/canonical.php on line 452
+[19-Oct-2012 02:23:00] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[19-Oct-2012 02:23:00] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[19-Oct-2012 02:23:01] PHP Fatal error:  Class 'IXR_Server' not found in /home/ericcres/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[19-Oct-2012 02:23:01] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-scripts.php on line 19
+[19-Oct-2012 02:23:01] PHP Fatal error:  Class 'WP_Widget' not found in /home/ericcres/public_html/wp-includes/default-widgets.php on line 14
+[19-Oct-2012 02:23:01] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/default-filters.php on line 17
+[19-Oct-2012 02:23:01] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rdf.php on line 8
+[19-Oct-2012 02:23:01] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2.php on line 8
+[19-Oct-2012 02:23:02] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom.php on line 8
+[19-Oct-2012 02:23:02] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss.php on line 8
+[19-Oct-2012 02:23:02] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/general-template.php on line 1284
+[19-Oct-2012 02:23:02] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom-comments.php on line 8
+[19-Oct-2012 02:23:02] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/kses.php on line 1374
+[19-Oct-2012 02:23:02] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-styles.php on line 19
+[19-Oct-2012 02:23:02] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/comment-template.php on line 1218
+[19-Oct-2012 02:23:02] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/ericcres/public_html/wp-includes/media.php on line 707
+[19-Oct-2012 02:23:03] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/ms-default-filters.php on line 17
+[19-Oct-2012 02:23:03] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/post-template.php on line 974
+[19-Oct-2012 02:23:03] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration.php on line 7
+[19-Oct-2012 02:23:03] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration-functions.php on line 7
+[19-Oct-2012 02:23:03] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[19-Oct-2012 02:23:03] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[19-Oct-2012 02:23:03] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[19-Oct-2012 02:23:03] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/shortcodes.php on line 334
+[19-Oct-2012 02:23:03] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/theme.php on line 1170
+[19-Oct-2012 02:23:03] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss-functions.php on line 8
+[19-Oct-2012 02:23:03] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/taxonomy.php on line 100
+[19-Oct-2012 02:23:03] PHP Fatal error:  Call to undefined function  is_robots() in /home/ericcres/public_html/wp-includes/template-loader.php on line 10
+[19-Oct-2012 02:23:03] PHP Fatal error:  Call to undefined function  is_main_site() in /home/ericcres/public_html/wp-includes/update.php on line 400
+[19-Oct-2012 02:23:03] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/user.php on line 72
+[19-Oct-2012 02:23:03] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/nav-menu-template.php on line 17
+[19-Oct-2012 02:23:03] PHP Fatal error:  Call to undefined function  is_admin() in /home/ericcres/public_html/wp-includes/vars.php on line 20
+[19-Oct-2012 02:23:03] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-functions.php on line 1828
+[19-Oct-2012 02:23:04] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss.php on line 18
+[19-Oct-2012 02:23:04] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[19-Oct-2012 02:23:04] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[19-Oct-2012 02:23:04] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[19-Oct-2012 02:23:05] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/admin-bar.php on line 39
+[19-Oct-2012 02:23:05] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/author-template.php on line 399
+[19-Oct-2012 02:23:06] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/class-snoopy.php on line 6
+[19-Oct-2012 02:23:06] PHP Fatal error:  Class 'IXR_Client' not found in /home/ericcres/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[19-Oct-2012 02:23:06] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2-comments.php on line 8
+[19-Oct-2012 02:23:07] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-default-constants.php on line 138
+[19-Oct-2012 02:23:08] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/post.php on line 153
+[19-Oct-2012 02:23:15] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/category-template.php on line 776
+[20-Oct-2012 00:12:36] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/author-template.php on line 399
+[20-Oct-2012 00:12:36] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2.php on line 8
+[20-Oct-2012 00:12:36] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2-comments.php on line 8
+[20-Oct-2012 00:12:36] PHP Fatal error:  Class 'WP_Widget' not found in /home/ericcres/public_html/wp-includes/default-widgets.php on line 14
+[20-Oct-2012 00:12:36] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/class-snoopy.php on line 6
+[20-Oct-2012 00:12:36] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[20-Oct-2012 00:12:36] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[20-Oct-2012 00:12:36] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/canonical.php on line 452
+[20-Oct-2012 00:12:36] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/general-template.php on line 1284
+[20-Oct-2012 00:12:36] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom.php on line 8
+[20-Oct-2012 00:12:36] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rdf.php on line 8
+[20-Oct-2012 00:12:36] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/default-filters.php on line 17
+[20-Oct-2012 00:12:36] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/category-template.php on line 776
+[20-Oct-2012 00:12:37] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/ericcres/public_html/wp-includes/media.php on line 707
+[20-Oct-2012 00:12:37] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-functions.php on line 1828
+[20-Oct-2012 00:12:37] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/ms-default-filters.php on line 17
+[20-Oct-2012 00:12:37] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/nav-menu-template.php on line 17
+[20-Oct-2012 00:12:37] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-default-constants.php on line 138
+[20-Oct-2012 00:12:37] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/post.php on line 153
+[20-Oct-2012 00:12:37] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[20-Oct-2012 00:12:37] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[20-Oct-2012 00:12:37] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[20-Oct-2012 00:12:37] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/shortcodes.php on line 334
+[20-Oct-2012 00:12:37] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration-functions.php on line 7
+[20-Oct-2012 00:12:37] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[20-Oct-2012 00:12:37] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[20-Oct-2012 00:12:37] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[20-Oct-2012 00:12:37] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration.php on line 7
+[20-Oct-2012 00:12:37] PHP Fatal error:  Call to undefined function  is_robots() in /home/ericcres/public_html/wp-includes/template-loader.php on line 10
+[20-Oct-2012 00:12:37] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/post-template.php on line 974
+[20-Oct-2012 00:12:37] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss-functions.php on line 8
+[20-Oct-2012 00:12:37] PHP Fatal error:  Call to undefined function  is_main_site() in /home/ericcres/public_html/wp-includes/update.php on line 400
+[20-Oct-2012 00:12:37] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss.php on line 18
+[20-Oct-2012 00:12:37] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/user.php on line 72
+[20-Oct-2012 00:12:37] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/theme.php on line 1170
+[20-Oct-2012 00:12:38] PHP Fatal error:  Call to undefined function  is_admin() in /home/ericcres/public_html/wp-includes/vars.php on line 20
+[20-Oct-2012 00:12:41] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/admin-bar.php on line 39
+[20-Oct-2012 00:12:41] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-scripts.php on line 19
+[20-Oct-2012 00:12:41] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss.php on line 8
+[20-Oct-2012 00:12:41] PHP Fatal error:  Class 'IXR_Server' not found in /home/ericcres/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[20-Oct-2012 00:12:41] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom-comments.php on line 8
+[20-Oct-2012 00:12:41] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/comment-template.php on line 1218
+[20-Oct-2012 00:12:41] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/kses.php on line 1374
+[20-Oct-2012 00:12:42] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/taxonomy.php on line 100
+[20-Oct-2012 00:12:46] PHP Fatal error:  Class 'IXR_Client' not found in /home/ericcres/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[20-Oct-2012 00:12:46] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-styles.php on line 19
+[08-Nov-2012 12:34:21] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/category-template.php on line 776
+[08-Nov-2012 12:34:21] PHP Fatal error:  Class 'IXR_Server' not found in /home/ericcres/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[08-Nov-2012 12:34:21] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/author-template.php on line 399
+[08-Nov-2012 12:34:21] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/class-snoopy.php on line 6
+[08-Nov-2012 12:34:21] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/default-filters.php on line 17
+[08-Nov-2012 12:34:21] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom.php on line 8
+[08-Nov-2012 12:34:21] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom-comments.php on line 8
+[08-Nov-2012 12:34:22] PHP Fatal error:  Call to undefined function  is_admin() in /home/ericcres/public_html/wp-includes/vars.php on line 20
+[08-Nov-2012 12:34:21] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[08-Nov-2012 12:34:22] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[08-Nov-2012 12:34:22] PHP Fatal error:  Call to undefined function  is_main_site() in /home/ericcres/public_html/wp-includes/update.php on line 400
+[08-Nov-2012 12:34:22] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rdf.php on line 8
+[08-Nov-2012 12:34:21] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/canonical.php on line 452
+[08-Nov-2012 12:34:22] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[08-Nov-2012 12:34:22] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[08-Nov-2012 12:34:22] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[08-Nov-2012 12:34:21] PHP Fatal error:  Class 'WP_Widget' not found in /home/ericcres/public_html/wp-includes/default-widgets.php on line 14
+[08-Nov-2012 12:34:21] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[08-Nov-2012 12:34:22] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[08-Nov-2012 12:34:22] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[08-Nov-2012 12:34:21] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-scripts.php on line 19
+[08-Nov-2012 12:34:22] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss.php on line 8
+[08-Nov-2012 12:34:22] PHP Fatal error:  Call to undefined function  is_robots() in /home/ericcres/public_html/wp-includes/template-loader.php on line 10
+[08-Nov-2012 12:34:22] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss.php on line 18
+[08-Nov-2012 12:34:22] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/ericcres/public_html/wp-includes/media.php on line 707
+[08-Nov-2012 12:34:22] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/shortcodes.php on line 334
+[08-Nov-2012 12:34:22] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/comment-template.php on line 1218
+[08-Nov-2012 12:34:22] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/admin-bar.php on line 39
+[08-Nov-2012 12:34:22] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/kses.php on line 1374
+[08-Nov-2012 12:34:22] PHP Fatal error:  Class 'IXR_Client' not found in /home/ericcres/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[08-Nov-2012 12:34:22] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2.php on line 8
+[08-Nov-2012 12:34:22] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/ms-default-filters.php on line 17
+[08-Nov-2012 12:34:22] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2-comments.php on line 8
+[08-Nov-2012 12:34:23] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/user.php on line 72
+[08-Nov-2012 12:34:23] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/post.php on line 153
+[08-Nov-2012 12:34:23] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-styles.php on line 19
+[08-Nov-2012 12:34:23] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/general-template.php on line 1284
+[08-Nov-2012 12:34:23] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration-functions.php on line 7
+[08-Nov-2012 12:34:23] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/post-template.php on line 974
+[08-Nov-2012 12:34:23] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/theme.php on line 1170
+[08-Nov-2012 12:34:23] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-default-constants.php on line 138
+[08-Nov-2012 12:34:24] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/taxonomy.php on line 100
+[08-Nov-2012 12:34:24] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-functions.php on line 1828
+[08-Nov-2012 12:34:24] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/nav-menu-template.php on line 17
+[08-Nov-2012 12:34:24] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss-functions.php on line 8
+[08-Nov-2012 12:34:24] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration.php on line 7
+[11-Nov-2012 19:14:42] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/admin-bar.php on line 39
+[11-Nov-2012 19:14:43] PHP Fatal error:  Class 'WP_Widget' not found in /home/ericcres/public_html/wp-includes/default-widgets.php on line 14
+[11-Nov-2012 19:14:43] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/comment-template.php on line 1218
+[11-Nov-2012 19:14:43] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss.php on line 8
+[11-Nov-2012 19:14:43] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-styles.php on line 19
+[11-Nov-2012 19:14:43] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/default-filters.php on line 17
+[11-Nov-2012 19:14:43] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[11-Nov-2012 19:14:43] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[11-Nov-2012 19:14:43] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/ms-settings.php on line 14
+[11-Nov-2012 19:14:43] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/canonical.php on line 452
+[11-Nov-2012 19:14:43] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2-comments.php on line 8
+[11-Nov-2012 19:14:43] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/author-template.php on line 399
+[11-Nov-2012 19:14:43] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/ericcres/public_html/wp-includes/media.php on line 707
+[11-Nov-2012 19:14:43] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration.php on line 7
+[11-Nov-2012 19:14:43] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-default-constants.php on line 138
+[11-Nov-2012 19:14:43] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/post-template.php on line 974
+[11-Nov-2012 19:14:43] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss.php on line 18
+[11-Nov-2012 19:14:43] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/registration-functions.php on line 7
+[11-Nov-2012 19:14:43] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/ms-functions.php on line 1828
+[11-Nov-2012 19:14:44] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/class-snoopy.php on line 6
+[11-Nov-2012 19:14:44] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom-comments.php on line 8
+[11-Nov-2012 19:14:44] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-atom.php on line 8
+[11-Nov-2012 19:14:44] PHP Fatal error:  Call to undefined function  is_robots() in /home/ericcres/public_html/wp-includes/template-loader.php on line 10
+[11-Nov-2012 19:14:44] PHP Fatal error:  Call to undefined function  is_main_site() in /home/ericcres/public_html/wp-includes/update.php on line 400
+[11-Nov-2012 19:14:44] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[11-Nov-2012 19:14:44] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[11-Nov-2012 19:14:44] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/script-loader.php on line 25
+[11-Nov-2012 19:14:44] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/shortcodes.php on line 334
+[11-Nov-2012 19:14:44] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/category-template.php on line 776
+[11-Nov-2012 19:14:44] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/ericcres/public_html/wp-includes/class.wp-scripts.php on line 19
+[11-Nov-2012 19:14:44] PHP Fatal error:  Call to undefined function  is_admin() in /home/ericcres/public_html/wp-includes/vars.php on line 20
+[11-Nov-2012 19:14:44] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[11-Nov-2012 19:14:44] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-includes/class-feed.php on line 4
+[11-Nov-2012 19:14:45] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/kses.php on line 1374
+[11-Nov-2012 19:14:45] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/theme.php on line 1170
+[11-Nov-2012 19:14:45] PHP Fatal error:  Class 'IXR_Client' not found in /home/ericcres/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[11-Nov-2012 19:14:45] PHP Fatal error:  Class 'IXR_Server' not found in /home/ericcres/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[11-Nov-2012 19:14:45] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/user.php on line 72
+[11-Nov-2012 19:14:45] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/general-template.php on line 1284
+[11-Nov-2012 19:14:45] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-includes/nav-menu-template.php on line 17
+[11-Nov-2012 19:14:45] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rss2.php on line 8
+[11-Nov-2012 19:14:45] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/ericcres/public_html/wp-includes/feed-rdf.php on line 8
+[11-Nov-2012 19:14:45] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-includes/ms-default-filters.php on line 17
+[11-Nov-2012 19:14:45] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/taxonomy.php on line 100
+[11-Nov-2012 19:14:45] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-includes/post.php on line 153
+[11-Nov-2012 19:14:46] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ericcres/public_html/wp-includes/rss-functions.php on line 8

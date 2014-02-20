@@ -1,0 +1,320 @@
+[26-Sep-2012 14:26:35] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/misc.php on line 212
+[26-Sep-2012 14:26:36] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/plugin.php on line 1652
+[26-Sep-2012 14:26:36] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/theme-install.php on line 113
+[26-Sep-2012 14:26:35] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-terms-list-table.php on line 10
+[26-Sep-2012 14:26:36] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-admin/includes/template.php on line 21
+[26-Sep-2012 14:26:35] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/file.php on line 11
+[26-Sep-2012 14:26:36] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/dashboard.php on line 1174
+[26-Sep-2012 14:26:36] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugin-install-list-table.php on line 10
+[26-Sep-2012 14:26:36] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/update.php on line 113
+[26-Sep-2012 14:26:36] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-sites-list-table.php on line 10
+[26-Sep-2012 14:26:36] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/ms.php on line 44
+[26-Sep-2012 14:26:36] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/update-core.php on line 640
+[26-Sep-2012 14:26:36] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-themes-list-table.php on line 10
+[26-Sep-2012 14:26:36] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-links-list-table.php on line 10
+[26-Sep-2012 14:26:36] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-themes-list-table.php on line 10
+[26-Sep-2012 14:26:36] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ssh2.php on line 43
+[26-Sep-2012 14:26:36] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-media-list-table.php on line 10
+[26-Sep-2012 14:26:37] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugins-list-table.php on line 10
+[26-Sep-2012 14:26:37] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-users-list-table.php on line 10
+[26-Sep-2012 14:26:35] PHP Warning:  require_once(ABSPATHwp-admin/includes/bookmark.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[26-Sep-2012 14:26:37] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/bookmark.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[26-Sep-2012 14:26:37] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-pure.php on line 28
+[26-Sep-2012 14:26:37] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/continents-cities.php on line 7
+[26-Sep-2012 14:26:36] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/user.php on line 322
+[26-Sep-2012 14:26:36] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-sockets.php on line 28
+[26-Sep-2012 14:26:36] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-theme-install-list-table.php on line 10
+[26-Sep-2012 14:26:36] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-users-list-table.php on line 10
+[26-Sep-2012 14:26:35] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-comments-list-table.php on line 18
+[26-Sep-2012 14:26:36] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php on line 17
+[26-Sep-2012 14:26:37] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[26-Sep-2012 14:26:37] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 17
+[26-Sep-2012 14:26:37] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/list-table.php on line 76
+[26-Sep-2012 14:26:37] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-posts-list-table.php on line 10
+[26-Sep-2012 14:26:41] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/media.php on line 57
+[26-Sep-2012 14:26:41] PHP Fatal error:  Call to undefined function  is_network_admin() in /home/ericcres/public_html/wp-admin/includes/menu.php on line 10
+[26-Sep-2012 14:26:41] PHP Fatal error:  Class 'Walker_Nav_Menu' not found in /home/ericcres/public_html/wp-admin/includes/nav-menu.php on line 10
+[26-Sep-2012 14:26:41] PHP Fatal error:  Call to undefined function  is_multisite() in /home/ericcres/public_html/wp-admin/includes/schema.php on line 50
+[26-Sep-2012 14:26:41] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/plugin-install.php on line 112
+[26-Sep-2012 14:26:41] PHP Warning:  require_once(ABSPATHwp-admin/includes/admin.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[26-Sep-2012 14:26:41] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/admin.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[27-Sep-2012 12:58:33] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-pure.php on line 28
+[27-Sep-2012 12:58:33] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php on line 17
+[27-Sep-2012 12:58:33] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-sites-list-table.php on line 10
+[27-Sep-2012 12:58:33] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-media-list-table.php on line 10
+[27-Sep-2012 12:58:33] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-sockets.php on line 28
+[27-Sep-2012 12:58:33] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugins-list-table.php on line 10
+[27-Sep-2012 12:58:33] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugin-install-list-table.php on line 10
+[27-Sep-2012 12:58:33] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-terms-list-table.php on line 10
+[27-Sep-2012 12:58:33] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ssh2.php on line 43
+[27-Sep-2012 12:58:33] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[27-Sep-2012 12:58:34] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-posts-list-table.php on line 10
+[27-Sep-2012 12:58:34] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-users-list-table.php on line 10
+[27-Sep-2012 12:58:34] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-users-list-table.php on line 10
+[27-Sep-2012 12:58:34] PHP Fatal error:  Call to undefined function  is_network_admin() in /home/ericcres/public_html/wp-admin/includes/menu.php on line 10
+[27-Sep-2012 12:58:34] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/file.php on line 11
+[27-Sep-2012 12:58:34] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/plugin.php on line 1652
+[27-Sep-2012 12:58:34] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/list-table.php on line 76
+[27-Sep-2012 12:58:35] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-admin/includes/template.php on line 21
+[27-Sep-2012 12:58:35] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/dashboard.php on line 1174
+[27-Sep-2012 12:58:35] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-themes-list-table.php on line 10
+[27-Sep-2012 12:58:35] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/ms.php on line 44
+[27-Sep-2012 12:58:35] PHP Fatal error:  Call to undefined function  is_multisite() in /home/ericcres/public_html/wp-admin/includes/schema.php on line 50
+[27-Sep-2012 12:58:35] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/update.php on line 113
+[27-Sep-2012 12:58:35] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/theme-install.php on line 113
+[27-Sep-2012 12:58:35] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/plugin-install.php on line 112
+[27-Sep-2012 12:58:35] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/user.php on line 322
+[27-Sep-2012 12:58:34] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-theme-install-list-table.php on line 10
+[27-Sep-2012 12:58:35] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/media.php on line 57
+[27-Sep-2012 12:58:35] PHP Fatal error:  Class 'Walker_Nav_Menu' not found in /home/ericcres/public_html/wp-admin/includes/nav-menu.php on line 10
+[27-Sep-2012 12:58:35] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/update-core.php on line 640
+[27-Sep-2012 12:58:35] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/continents-cities.php on line 7
+[27-Sep-2012 12:58:35] PHP Warning:  require_once(ABSPATHwp-admin/includes/admin.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[27-Sep-2012 12:58:35] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/admin.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[27-Sep-2012 12:58:35] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-themes-list-table.php on line 10
+[27-Sep-2012 12:58:35] PHP Warning:  require_once(ABSPATHwp-admin/includes/bookmark.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[27-Sep-2012 12:58:35] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/bookmark.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[27-Sep-2012 12:58:35] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 17
+[27-Sep-2012 12:58:39] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/misc.php on line 212
+[27-Sep-2012 12:58:39] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-comments-list-table.php on line 18
+[27-Sep-2012 12:58:39] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-links-list-table.php on line 10
+[30-Sep-2012 12:26:24] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-sockets.php on line 28
+[30-Sep-2012 12:26:24] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-terms-list-table.php on line 10
+[30-Sep-2012 12:26:24] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugins-list-table.php on line 10
+[30-Sep-2012 12:26:24] PHP Warning:  require_once(ABSPATHwp-admin/includes/bookmark.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[30-Sep-2012 12:26:24] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-comments-list-table.php on line 18
+[30-Sep-2012 12:26:24] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php on line 17
+[30-Sep-2012 12:26:24] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ssh2.php on line 43
+[30-Sep-2012 12:26:24] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-theme-install-list-table.php on line 10
+[30-Sep-2012 12:26:25] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-posts-list-table.php on line 10
+[30-Sep-2012 12:26:24] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-sites-list-table.php on line 10
+[30-Sep-2012 12:26:25] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-users-list-table.php on line 10
+[30-Sep-2012 12:26:25] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/bookmark.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[30-Sep-2012 12:26:25] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-themes-list-table.php on line 10
+[30-Sep-2012 12:26:25] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-links-list-table.php on line 10
+[30-Sep-2012 12:26:25] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[30-Sep-2012 12:26:25] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/list-table.php on line 76
+[30-Sep-2012 12:26:25] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/plugin.php on line 1652
+[30-Sep-2012 12:26:25] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/continents-cities.php on line 7
+[30-Sep-2012 12:26:25] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/dashboard.php on line 1174
+[30-Sep-2012 12:26:26] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/misc.php on line 212
+[30-Sep-2012 12:26:26] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/file.php on line 11
+[30-Sep-2012 12:26:26] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-admin/includes/template.php on line 21
+[30-Sep-2012 12:26:26] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/ms.php on line 44
+[30-Sep-2012 12:26:26] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/update-core.php on line 640
+[30-Sep-2012 12:26:26] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/theme-install.php on line 113
+[30-Sep-2012 12:26:26] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-themes-list-table.php on line 10
+[30-Sep-2012 12:26:26] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/media.php on line 57
+[30-Sep-2012 12:26:26] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugin-install-list-table.php on line 10
+[30-Sep-2012 12:26:26] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/update.php on line 113
+[30-Sep-2012 12:26:26] PHP Fatal error:  Call to undefined function  is_network_admin() in /home/ericcres/public_html/wp-admin/includes/menu.php on line 10
+[30-Sep-2012 12:26:26] PHP Fatal error:  Class 'Walker_Nav_Menu' not found in /home/ericcres/public_html/wp-admin/includes/nav-menu.php on line 10
+[30-Sep-2012 12:26:26] PHP Fatal error:  Call to undefined function  is_multisite() in /home/ericcres/public_html/wp-admin/includes/schema.php on line 50
+[30-Sep-2012 12:26:26] PHP Warning:  require_once(ABSPATHwp-admin/includes/admin.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[30-Sep-2012 12:26:26] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/admin.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[30-Sep-2012 12:26:29] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/user.php on line 322
+[30-Sep-2012 12:26:29] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-pure.php on line 28
+[30-Sep-2012 12:26:29] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-users-list-table.php on line 10
+[30-Sep-2012 12:26:30] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-media-list-table.php on line 10
+[30-Sep-2012 12:26:30] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/plugin-install.php on line 112
+[30-Sep-2012 12:26:34] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 17
+[01-Oct-2012 01:57:48] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-sockets.php on line 28
+[01-Oct-2012 01:57:48] PHP Warning:  require_once(ABSPATHwp-admin/includes/bookmark.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[01-Oct-2012 01:57:48] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/bookmark.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[01-Oct-2012 01:57:49] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-users-list-table.php on line 10
+[01-Oct-2012 01:57:49] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php on line 17
+[01-Oct-2012 01:57:49] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugin-install-list-table.php on line 10
+[01-Oct-2012 01:57:49] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/file.php on line 11
+[01-Oct-2012 01:57:49] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-themes-list-table.php on line 10
+[01-Oct-2012 01:57:49] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 17
+[01-Oct-2012 01:57:50] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/continents-cities.php on line 7
+[01-Oct-2012 01:57:50] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-users-list-table.php on line 10
+[01-Oct-2012 01:57:50] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ssh2.php on line 43
+[01-Oct-2012 01:57:50] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-media-list-table.php on line 10
+[01-Oct-2012 01:57:50] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/misc.php on line 212
+[01-Oct-2012 01:57:50] PHP Fatal error:  Class 'Walker_Nav_Menu' not found in /home/ericcres/public_html/wp-admin/includes/nav-menu.php on line 10
+[01-Oct-2012 01:57:50] PHP Fatal error:  Call to undefined function  is_network_admin() in /home/ericcres/public_html/wp-admin/includes/menu.php on line 10
+[01-Oct-2012 01:57:50] PHP Fatal error:  Call to undefined function  is_multisite() in /home/ericcres/public_html/wp-admin/includes/schema.php on line 50
+[01-Oct-2012 01:57:50] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[01-Oct-2012 01:57:50] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/media.php on line 57
+[01-Oct-2012 01:57:50] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-comments-list-table.php on line 18
+[01-Oct-2012 01:57:50] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-pure.php on line 28
+[01-Oct-2012 01:57:50] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/theme-install.php on line 113
+[01-Oct-2012 01:57:50] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugins-list-table.php on line 10
+[01-Oct-2012 01:57:50] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/user.php on line 322
+[01-Oct-2012 01:57:50] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/update.php on line 113
+[01-Oct-2012 01:57:50] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/ms.php on line 44
+[01-Oct-2012 01:57:50] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-links-list-table.php on line 10
+[01-Oct-2012 01:57:50] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-posts-list-table.php on line 10
+[01-Oct-2012 01:57:50] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/update-core.php on line 640
+[01-Oct-2012 01:57:50] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-terms-list-table.php on line 10
+[01-Oct-2012 01:57:50] PHP Warning:  require_once(ABSPATHwp-admin/includes/admin.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[01-Oct-2012 01:57:50] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/admin.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[01-Oct-2012 01:57:54] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-sites-list-table.php on line 10
+[01-Oct-2012 01:57:54] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-theme-install-list-table.php on line 10
+[01-Oct-2012 01:57:54] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/list-table.php on line 76
+[01-Oct-2012 01:57:55] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-themes-list-table.php on line 10
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/dashboard.php on line 1174
+[01-Oct-2012 01:57:55] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-admin/includes/template.php on line 21
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/plugin-install.php on line 112
+[01-Oct-2012 01:57:55] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/plugin.php on line 1652
+[19-Oct-2012 02:22:56] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 17
+[19-Oct-2012 02:22:56] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugins-list-table.php on line 10
+[19-Oct-2012 02:22:57] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/file.php on line 11
+[19-Oct-2012 02:22:57] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/continents-cities.php on line 7
+[19-Oct-2012 02:22:57] PHP Fatal error:  Call to undefined function  is_network_admin() in /home/ericcres/public_html/wp-admin/includes/menu.php on line 10
+[19-Oct-2012 02:22:56] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-sites-list-table.php on line 10
+[19-Oct-2012 02:22:57] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-themes-list-table.php on line 10
+[19-Oct-2012 02:22:57] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/plugin.php on line 1652
+[19-Oct-2012 02:22:56] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-pure.php on line 28
+[19-Oct-2012 02:22:57] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-posts-list-table.php on line 10
+[19-Oct-2012 02:22:57] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/dashboard.php on line 1174
+[19-Oct-2012 02:22:56] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-sockets.php on line 28
+[19-Oct-2012 02:22:57] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-users-list-table.php on line 10
+[19-Oct-2012 02:22:56] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[19-Oct-2012 02:22:56] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/misc.php on line 212
+[19-Oct-2012 02:22:57] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-themes-list-table.php on line 10
+[19-Oct-2012 02:22:56] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-media-list-table.php on line 10
+[19-Oct-2012 02:22:57] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/update-core.php on line 640
+[19-Oct-2012 02:22:57] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-links-list-table.php on line 10
+[19-Oct-2012 02:22:57] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-users-list-table.php on line 10
+[19-Oct-2012 02:22:57] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/theme-install.php on line 113
+[19-Oct-2012 02:22:56] PHP Warning:  require_once(ABSPATHwp-admin/includes/bookmark.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[19-Oct-2012 02:22:57] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/bookmark.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[19-Oct-2012 02:22:57] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugin-install-list-table.php on line 10
+[19-Oct-2012 02:22:57] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/user.php on line 322
+[19-Oct-2012 02:22:57] PHP Fatal error:  Call to undefined function  is_multisite() in /home/ericcres/public_html/wp-admin/includes/schema.php on line 50
+[19-Oct-2012 02:22:57] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-terms-list-table.php on line 10
+[19-Oct-2012 02:22:57] PHP Warning:  require_once(ABSPATHwp-admin/includes/admin.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[19-Oct-2012 02:22:57] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/admin.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[19-Oct-2012 02:22:57] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ssh2.php on line 43
+[19-Oct-2012 02:22:57] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/ms.php on line 44
+[19-Oct-2012 02:22:57] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-comments-list-table.php on line 18
+[19-Oct-2012 02:22:57] PHP Fatal error:  Class 'Walker_Nav_Menu' not found in /home/ericcres/public_html/wp-admin/includes/nav-menu.php on line 10
+[19-Oct-2012 02:23:01] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-theme-install-list-table.php on line 10
+[19-Oct-2012 02:23:02] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/media.php on line 57
+[19-Oct-2012 02:23:02] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-admin/includes/template.php on line 21
+[19-Oct-2012 02:23:02] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/list-table.php on line 76
+[19-Oct-2012 02:23:02] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/update.php on line 113
+[19-Oct-2012 02:23:06] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php on line 17
+[19-Oct-2012 02:23:11] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/plugin-install.php on line 112
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-comments-list-table.php on line 18
+[20-Oct-2012 00:12:31] PHP Warning:  require_once(ABSPATHwp-admin/includes/bookmark.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[20-Oct-2012 00:12:32] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/bookmark.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 17
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-pure.php on line 28
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-sockets.php on line 28
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php on line 17
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ssh2.php on line 43
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-links-list-table.php on line 10
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-sites-list-table.php on line 10
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-themes-list-table.php on line 10
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-media-list-table.php on line 10
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-users-list-table.php on line 10
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugin-install-list-table.php on line 10
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-posts-list-table.php on line 10
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-terms-list-table.php on line 10
+[20-Oct-2012 00:12:32] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-users-list-table.php on line 10
+[20-Oct-2012 00:12:33] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/media.php on line 57
+[20-Oct-2012 00:12:33] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/list-table.php on line 76
+[20-Oct-2012 00:12:33] PHP Fatal error:  Call to undefined function  is_network_admin() in /home/ericcres/public_html/wp-admin/includes/menu.php on line 10
+[20-Oct-2012 00:12:33] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/dashboard.php on line 1174
+[20-Oct-2012 00:12:33] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/plugin.php on line 1652
+[20-Oct-2012 00:12:33] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/misc.php on line 212
+[20-Oct-2012 00:12:33] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-admin/includes/template.php on line 21
+[20-Oct-2012 00:12:33] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/ms.php on line 44
+[20-Oct-2012 00:12:33] PHP Fatal error:  Class 'Walker_Nav_Menu' not found in /home/ericcres/public_html/wp-admin/includes/nav-menu.php on line 10
+[20-Oct-2012 00:12:33] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-themes-list-table.php on line 10
+[20-Oct-2012 00:12:33] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/file.php on line 11
+[20-Oct-2012 00:12:33] PHP Fatal error:  Call to undefined function  is_multisite() in /home/ericcres/public_html/wp-admin/includes/schema.php on line 50
+[20-Oct-2012 00:12:33] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/plugin-install.php on line 112
+[20-Oct-2012 00:12:33] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-theme-install-list-table.php on line 10
+[20-Oct-2012 00:12:33] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/continents-cities.php on line 7
+[20-Oct-2012 00:12:34] PHP Warning:  require_once(ABSPATHwp-admin/includes/admin.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[20-Oct-2012 00:12:34] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/admin.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[20-Oct-2012 00:12:34] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugins-list-table.php on line 10
+[20-Oct-2012 00:12:34] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/theme-install.php on line 113
+[20-Oct-2012 00:12:34] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/update.php on line 113
+[20-Oct-2012 00:12:34] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/user.php on line 322
+[20-Oct-2012 00:12:34] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/update-core.php on line 640
+[08-Nov-2012 12:34:18] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-links-list-table.php on line 10
+[08-Nov-2012 12:34:19] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-theme-install-list-table.php on line 10
+[08-Nov-2012 12:34:18] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/dashboard.php on line 1174
+[08-Nov-2012 12:34:18] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugin-install-list-table.php on line 10
+[08-Nov-2012 12:34:19] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-users-list-table.php on line 10
+[08-Nov-2012 12:34:19] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/update.php on line 113
+[08-Nov-2012 12:34:19] PHP Fatal error:  Call to undefined function  is_network_admin() in /home/ericcres/public_html/wp-admin/includes/menu.php on line 10
+[08-Nov-2012 12:34:19] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/user.php on line 322
+[08-Nov-2012 12:34:20] PHP Warning:  require_once(ABSPATHwp-admin/includes/bookmark.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[08-Nov-2012 12:34:20] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/bookmark.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[08-Nov-2012 12:34:19] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/continents-cities.php on line 7
+[08-Nov-2012 12:34:19] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/list-table.php on line 76
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-sockets.php on line 28
+[08-Nov-2012 12:34:20] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/media.php on line 57
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php on line 17
+[08-Nov-2012 12:34:20] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/plugin-install.php on line 112
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-pure.php on line 28
+[08-Nov-2012 12:34:19] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-media-list-table.php on line 10
+[08-Nov-2012 12:34:19] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/file.php on line 11
+[08-Nov-2012 12:34:20] PHP Warning:  require_once(ABSPATHwp-admin/includes/admin.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[08-Nov-2012 12:34:20] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/admin.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-themes-list-table.php on line 10
+[08-Nov-2012 12:34:20] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/plugin.php on line 1652
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 17
+[08-Nov-2012 12:34:20] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/update-core.php on line 640
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'Walker_Nav_Menu' not found in /home/ericcres/public_html/wp-admin/includes/nav-menu.php on line 10
+[08-Nov-2012 12:34:20] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/theme-install.php on line 113
+[08-Nov-2012 12:34:20] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/ms.php on line 44
+[08-Nov-2012 12:34:20] PHP Fatal error:  Call to undefined function  is_multisite() in /home/ericcres/public_html/wp-admin/includes/schema.php on line 50
+[08-Nov-2012 12:34:20] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/misc.php on line 212
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-comments-list-table.php on line 18
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-sites-list-table.php on line 10
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-admin/includes/template.php on line 21
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ssh2.php on line 43
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-users-list-table.php on line 10
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugins-list-table.php on line 10
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-terms-list-table.php on line 10
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-themes-list-table.php on line 10
+[08-Nov-2012 12:34:20] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-posts-list-table.php on line 10
+[11-Nov-2012 19:14:40] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/file.php on line 11
+[11-Nov-2012 19:14:40] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-comments-list-table.php on line 18
+[11-Nov-2012 19:14:40] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/list-table.php on line 76
+[11-Nov-2012 19:14:40] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/dashboard.php on line 1174
+[11-Nov-2012 19:14:40] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-users-list-table.php on line 10
+[11-Nov-2012 19:14:41] PHP Fatal error:  Call to undefined function  is_network_admin() in /home/ericcres/public_html/wp-admin/includes/menu.php on line 10
+[11-Nov-2012 19:14:41] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/misc.php on line 212
+[11-Nov-2012 19:14:41] PHP Fatal error:  Call to undefined function  is_multisite() in /home/ericcres/public_html/wp-admin/includes/schema.php on line 50
+[11-Nov-2012 19:14:41] PHP Fatal error:  Class 'Walker_Nav_Menu' not found in /home/ericcres/public_html/wp-admin/includes/nav-menu.php on line 10
+[11-Nov-2012 19:14:41] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/plugin-install.php on line 112
+[11-Nov-2012 19:14:41] PHP Fatal error:  Class 'Walker' not found in /home/ericcres/public_html/wp-admin/includes/template.php on line 21
+[11-Nov-2012 19:14:41] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-pure.php on line 28
+[11-Nov-2012 19:14:41] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 17
+[11-Nov-2012 19:14:41] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/user.php on line 322
+[11-Nov-2012 19:14:41] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/ms.php on line 44
+[11-Nov-2012 19:14:41] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-terms-list-table.php on line 10
+[11-Nov-2012 19:14:41] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/update-core.php on line 640
+[11-Nov-2012 19:14:41] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/plugin.php on line 1652
+[11-Nov-2012 19:14:41] PHP Fatal error:  Call to undefined function  add_action() in /home/ericcres/public_html/wp-admin/includes/theme-install.php on line 113
+[11-Nov-2012 19:14:41] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/update.php on line 113
+[11-Nov-2012 19:14:41] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-themes-list-table.php on line 10
+[11-Nov-2012 19:14:41] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-users-list-table.php on line 10
+[11-Nov-2012 19:14:42] PHP Fatal error:  Class 'ftp_base' not found in /home/ericcres/public_html/wp-admin/includes/class-ftp-sockets.php on line 28
+[11-Nov-2012 19:14:42] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-theme-install-list-table.php on line 10
+[11-Nov-2012 19:14:42] PHP Warning:  require_once(ABSPATHwp-admin/includes/admin.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[11-Nov-2012 19:14:42] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/admin.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/upgrade.php on line 16
+[11-Nov-2012 19:14:42] PHP Fatal error:  Call to undefined function  add_filter() in /home/ericcres/public_html/wp-admin/includes/media.php on line 57
+[11-Nov-2012 19:14:42] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-media-list-table.php on line 10
+[11-Nov-2012 19:14:42] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-links-list-table.php on line 10
+[11-Nov-2012 19:14:42] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugins-list-table.php on line 10
+[11-Nov-2012 19:14:42] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-themes-list-table.php on line 10
+[11-Nov-2012 19:14:42] PHP Warning:  require_once(ABSPATHwp-admin/includes/bookmark.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[11-Nov-2012 19:14:42] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/bookmark.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ericcres/public_html/wp-admin/includes/admin.php on line 10
+[11-Nov-2012 19:14:42] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-ms-sites-list-table.php on line 10
+[11-Nov-2012 19:14:42] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-plugin-install-list-table.php on line 10
+[11-Nov-2012 19:14:42] PHP Fatal error:  Call to undefined function  __() in /home/ericcres/public_html/wp-admin/includes/continents-cities.php on line 7
+[11-Nov-2012 19:14:42] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ssh2.php on line 43
+[11-Nov-2012 19:14:42] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[11-Nov-2012 19:14:42] PHP Fatal error:  Class 'WP_List_Table' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-posts-list-table.php on line 10
+[11-Nov-2012 19:14:42] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ericcres/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php on line 17
