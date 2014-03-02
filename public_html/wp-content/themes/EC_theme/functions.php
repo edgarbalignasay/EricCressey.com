@@ -28,10 +28,10 @@ include("ec_menu.php");
 
 // Tracking Scripts
 add_action('wp_head', 'include_meta_widgets');
-function include_meta_widgets() { require_once(CHILD_DIR . '/widgets_meta.php'); }
+function include_meta_widgets() { require_once(get_stylesheet_directory() . '/widgets_meta.php'); }
 
 add_action('wp_footer', 'include_after_widgets');
-function include_after_widgets() { require_once(CHILD_DIR . '/widgets_after.php'); }
+function include_after_widgets() { require_once(get_stylesheet_directory() . '/widgets_after.php'); }
 
 // MixPanel Tracking Codes
 require_once(get_stylesheet_directory() . '/mixpanel_tracking.php');
