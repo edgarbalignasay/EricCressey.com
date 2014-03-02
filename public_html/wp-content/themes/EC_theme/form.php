@@ -11,7 +11,7 @@
 <p class="opt_in_desc">Free Video Training</p>
 
 
-<form action="https://www.mcssl.com/app/contactsave.asp" method="post"> <input id="merchantid" name="merchantid" type="hidden" value="84520" /> <input id="ARThankyouURL" name="ARThankyouURL" type="hidden" value="www.ericcressey.com" /> <input id="copyarresponse" name="copyarresponse" type="hidden" value="1" /> <input id="custom" name="custom" type="hidden" value="0" /> <input id="defaultar" name="defaultar" type="hidden" value="178309" /> <input id="allowmulti" name="allowmulti" type="hidden" value="0" /> <input id="visiblefields" name="visiblefields" type="hidden" value="Name,Email1" /> <input id="requiredfields" name="requiredfields" type="hidden" value="Email1" />
+<form action="https://www.mcssl.com/app/contactsave.asp" method="post" id="EmailOptIn" data-form-name="Homepage Deadlift Opt In"> <input id="merchantid" name="merchantid" type="hidden" value="84520" /> <input id="ARThankyouURL" name="ARThankyouURL" type="hidden" value="www.ericcressey.com" /> <input id="copyarresponse" name="copyarresponse" type="hidden" value="1" /> <input id="custom" name="custom" type="hidden" value="0" /> <input id="defaultar" name="defaultar" type="hidden" value="178309" /> <input id="allowmulti" name="allowmulti" type="hidden" value="0" /> <input id="visiblefields" name="visiblefields" type="hidden" value="Name,Email1" /> <input id="requiredfields" name="requiredfields" type="hidden" value="Email1" />
 <table border="0" cellspacing="2" width="205">
 <tbody>
 <tr>

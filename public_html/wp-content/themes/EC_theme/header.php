@@ -11,10 +11,10 @@
  <link href="/apple-touch-icon.png" sizes="57x57" rel="apple-touch-icon" />
 
  <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
- <link rel="author" href="https://plus.google.com/106907211355435072734" />
+ <link rel="author" href="//plus.google.com/106907211355435072734" />
 <?php wp_head(); ?>	
  
- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+ <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 <script type="text/javascript" src="/scripts/fancybox/jquery.easing-1.3.pack.js"></script>
 <script type="text/javascript" src="/scripts/fancybox/jquery.fancybox-1.3.4.js"></script>
