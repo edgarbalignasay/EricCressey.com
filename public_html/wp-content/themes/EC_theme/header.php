@@ -14,13 +14,13 @@
  <link rel="author" href="//plus.google.com/106907211355435072734" />
 <?php wp_head(); ?>	
  
- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-<script type="text/javascript" src="/scripts/fancybox/jquery.easing-1.3.pack.js"></script>
-<script type="text/javascript" src="/scripts/fancybox/jquery.fancybox-1.3.4.js"></script>
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="/scripts/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/scripts/fancybox/jquery.fancybox.pack.js"></script>
+
 <script type="text/javascript" src="/scripts/jquery.cookie.js"></script>
-
-<link rel="stylesheet" href="/scripts/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
  
 </head>
 <body>

@@ -1,16 +1,13 @@
 <script type="text/javascript">
-
-    $(document).ready(function() {
-		$("a#inline").fancybox();
-		if ($.cookie('ecpopup3') != '1') {
-        $.cookie('ecpopup3', '1', { expires: 365 }); 
+$(document).ready(function() {
+	$("a#inline").fancybox();
+	if ($.cookie('ecpopup3') != '1') {
+    	$.cookie('ecpopup3', '1', { expires: 365 }); 
 		var puc='ecpopup3';
 		$("#inline").trigger('click');
-		}
+	}
 
 });
-
-    
 </script>
 
 <a id="inline" href="#popup" style="display:none;">This shows content of popup</a>
