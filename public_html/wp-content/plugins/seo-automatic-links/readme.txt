@@ -3,7 +3,7 @@ Contributors: freediver
 Donate link: https://www.networkforgood.org/donation/MakeDonation.aspx?ORGID2=520781390
 Tags:  Post, posts, comments, links, seo, google, automatic, affiliate
 Requires at least: 2.3
-Tested up to: 3.5
+Tested up to: 3.8.2
 Stable tag: trunk
 
 SEO Smart Links provides automatic SEO benefits for your site in addition to custom keyword lists, nofollow and much more. 
@@ -23,9 +23,11 @@ It is a perfect solution to get your blog posts interlinked or add affiliate lin
 
 Everything happens completely transparent, and you can edit the options from the administration settings panel.
 
-Plugin by Vladimir Prelovac, a <a href="http://www.prelovac.com/vladimir/services">WordPress Consultant</a>.
 
 == Changelog == 
+
+= 2.7.8 =
+* WordPress 3.8 compatibility
 
 = 2.7.6 =
 * Fixed new line at the end of the file
@@ -128,7 +130,3 @@ Please be careful when editing this file and always make a backup!
 = Can I suggest an feature for the plugin? =
 
 Of course, visit <a href="http://www.prelovac.com/vladimir/wordpress-plugins/seo-smart-links#comments">SEO Smart Links Home Page</a>
-
-= I love your work, are you available for hire? =
-
-Yes I am, visit my <a href="http://www.prelovac.com/vladimir/services">WordPress Services</a> page to find out more.

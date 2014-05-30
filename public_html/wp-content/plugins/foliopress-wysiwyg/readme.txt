@@ -2,7 +2,7 @@
 Contributors: FolioVision
 Tags: wysiwyg,editor,foliopress,image,images,seo,lightbox,fck,tinymce,editor
 Requires at least: 3.1 
-Tested up to: 3.3.1
+Tested up to: 3.8
 Stable tag: trunk
 
 Foliopress WYSIWYG is the editor you were always hoping for, every time you installed a new content management system.
@@ -32,7 +32,7 @@ Foliopress WYSIWYG is the editor you were always hoping for, every time you inst
 == Installation ==
 
 You can use the built in installer and upgrader, or you can install the plugin
-manually.
+manually. 
 
 == Screenshots ==
 
@@ -86,6 +86,14 @@ img.noborder { border: none; }
 
 For complex reasons we need to strip empty paragraphs but you can use <br /> break tags to create the same effect of empty lines. The keyboard shortcut is shift enter. We don't really recommend using either <br /> tags or empty paragraphs for formatting, you should be able to handle it in your CSS.
 
+= How to do my own translation? =
+
+This plugin consists of 3 parts:
+
+* Wordpress plugin - check the languages/" directory for .po and .mo files - the standard way of how Wordpress translations work
+* FCKEditor - check fckeditor/editor/lang - it contains JS files with definition of each language. Check then en.js file for entries below "Foliovision plugins" - these have to be translated. Note that vast majority of the phrases already has a translation. Set your language in plugin settings.
+* SEO Images image manager - fckeditor/editor/plugins/kfm/lang/ - the missing translations are at the end of en.js file and they have to be copied into each language version. Note that vast majority of the phrases already has a translation. Set your language in plugin settings.
+
 = Your plugin is not working, all I can see it this: =
 
 > Parse error: syntax error, unexpected T_CONST, expecting T_OLD_FUNCTION or T_FUNCTION or T_VAR or '}' in {your web root}/wp-content/plugins/foliopress-wysiwyg/foliopress-wysiwyg-class.php on line 96
@@ -125,16 +133,50 @@ The ImageMagick binary must be executable from PHP and be available as /bin/conv
 
 == Changelog ==
 
-= 0.9.23 =
-* read more button now uses the standard read more icon 
-* WP internal linking dialog disabled
-* bugfix for custom post types
-* wysiwyg post meta changed to _wysiwyg
-* SEO Images loading script renamed
-* bugfix for featured image
+= 2.6.8.7 =
+
+* Important fix for featured image function
+
+= 2.6.8.6 =
+
+* Added support for translations for the Wordpress part
+* Added missing language hooks for editor and image manager
+
+= 2.6.8.5 =
+
+* Fix for XSS vulnerability in unused part of plugin
+
+= 2.6.8.4 =
+
+* Fix for FV Flowplayer button
+* Fix for editor height when upgrading Wordpress to 3.7 version
+
+= 2.6.8.3 =
+
+* Fix for new FV Flowplayer button
+* Fix for some PHP warnings
+
+= 2.6.8.2 =
+
+* Bugfix for setting of featured image
+* Bugfix for editor CSS loader (it was throwing PHP warnings)
+* Bugfix for custom post types without editor support
+* Bugfix for image size limit on upload
+
+= 2.6.8.1 =
+
+* Bugfix for editor size setting. New Wordpress goes not have a setting for number of editor rows anymore, so we have it in plugin settings now (Height of FCKEditor). 
+
+= 2.6.8 =
+
+* FCKeditor component upgraded to latest version
+* Version number changed to match FCKeditor
+* Ctrl + right click gets you spelling suggestions if you have browser spellchecker installed 
+* Security enhancements
 
 = 0.9.22 =
-* fix for Wordpress 3.3
+* Wordpress 3.3 display issues fix
+* Featured Image functionality bugfix
 
 = 0.9.21 =
 * quick bug fix release for formating drop down
@@ -243,8 +285,11 @@ The ImageMagick binary must be executable from PHP and be available as /bin/conv
 
 == Upgrade Notice ==
 
-= 0.9.21 =
-* IE9 still won't work, but try switching it to IE8 compatibility mode. There is also new simple button for inserting embed codes. If the upgrade takes too long, you might need to do the manual upgrade or first delete the plugin and then install it through Wordpress. Make sure you clear your browser cache after upgrade.
+= 2.6.8 =
+* We decided to go back to FCKeditor (latest version - 2.6.8), as the new CKeditor was bringing too many new issues.
+
+= 0.9.22 =
+* IE9 still won't work, but try switching it to IE8 compatibility mode. If the upgrade takes too long, you might need to do the manual upgrade or first delete the plugin and then install it through Wordpress. Make sure you clear your browser cache after upgrade.
 
 = 0.9.19.7 =
 * Editor disabled in IE 9.0 due to compatibility issues, until it gets resolved. If Wordpress prompts for FTP information and the upgrade takes too long, you might need to do the manual upgrade or first delete the plugin and then install it through Wordpress. Please make sure you clear your browser cache after upgrade.

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
  * FCKeditor - The text editor for Internet - http://www.fckeditor.net
- * Copyright (C) 2003-2008 Frederico Caldeira Knabben
+ * Copyright (C) 2003-2010 Frederico Caldeira Knabben
  *
  * == BEGIN LICENSE ==
  *
@@ -28,7 +28,7 @@
 
 	<!-- Block Styles -->
 
-	
+	<!--
 	# These styles are already available in the "Format" combo, so they are not
 	# needed here by default.
 
@@ -42,8 +42,7 @@
 	<Style name="Document Block" element="div" />
 	<Style name="Preformatted Text" element="pre" />
 	<Style name="Address" element="address" />
-	<Style name="Abbrev" element="abbr" />
-	
+	-->
 
 	<!-- Inline Styles -->
 

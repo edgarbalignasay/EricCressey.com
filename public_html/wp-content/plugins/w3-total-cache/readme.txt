@@ -2,8 +2,8 @@
 Contributors: fredericktownes
 Tags: wpo, web performance optimization, performance, availability, scaling, scalability, user experience, cache, caching, page cache, css cache, js cache, db cache, disk cache, disk caching, database cache, http compression, gzip, deflate, minify, cdn, content delivery network, media library, performance, speed, multiple hosts, css, merge, combine, unobtrusive javascript, compress, optimize, optimizer, javascript, js, cascading style sheet, plugin, yslow, yui, google, google rank, google page speed, mod_pagespeed, new relic, newrelic, aws, s3, cloudfront, sns, elasticache, rds, flash media server, amazon web services, cloud files, rackspace, akamai, max cdn, netdna, limelight, cloudflare, mod_cloudflare, microsoft, microsoft azure, iis, nginx, litespeed, apache, varnish, xcache, apc, eacclerator, wincache, mysql, w3 total cache, batcache, wp cache, wp super cache, quick cache, wp minify, bwp-minify, buddypress
 Requires at least: 3.2
-Tested up to: 3.5.1
-Stable tag: 0.9.2.10
+Tested up to: 3.7.1
+Stable tag: 0.9.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -109,12 +109,12 @@ We're always working to make this more simple and straight forward in future rel
 
 That depends on how you use your site and where most of your readers read your site (regionally). Here's a short list:
 
-* [MaxCDN](http://bit.ly/pXZ4t1)
-* [EdgeCast](http://bit.ly/bIjSWC)
-* [Amazon Cloudfront](http://bit.ly/ao1sGt)
-* [Rackspace Cloud Files](http://bit.ly/9hpX8T)
-* [Limelight Networks](http://bit.ly/aCW04j)
-* [Akamai](http://bit.ly/a5GBLV)
+* [MaxCDN](http://www.maxcdn.com/), [Discount Coupon Code](http://tracking.maxcdn.com/c/15753/3982/378?u=https%3A%2F%2Fsecure.maxcdn.com%2F%3Fpackage%3Dstarter%26coupon%3Dw3tc)
+* [EdgeCast / MediaTemple ProCDN](http://www.edgecast.com/)
+* [Amazon Cloudfront](http://aws.amazon.com/cloudfront/)
+* [Rackspace Cloud Files](http://www.rackspace.com/cloud/files/)
+* [Limelight Networks](http://www.limelight.com/)
+* [Akamai](http://www.akamai.com/)
 
 = What about comments? Does the plugin slow down the rate at which comments appear? =
 
@@ -275,7 +275,7 @@ Install the plugin to read the full FAQ on the plugins FAQ tab.
 
 == What users have to say: ==
 
-* Read [testimonials](http://bit.ly/6Wbvpt) from W3TC users.
+* Read [testimonials](https://twitter.com/w3edge/favorites) from W3TC users.
 
 == Press: Mentions, Tutorials &amp; Reviews ==
 
@@ -731,6 +731,57 @@ It's quite difficult to recall all of the innovators that have shared their thou
 Please reach out to all of these people and support their projects if you're so inclined.
 
 == Changelog ==
+
+= 0.9.3 =
+* Added support for extensions
+* Added support for WordPress SEO image filter and CDN
+* Added file exclusions for media query string logic
+* Added user agents to user agents groups
+* Added CDN FTP path / host test
+* Fixed object cache and database cache for localization plugins
+* Fixed chinese filenames when using CDN
+* Fixed removal of stale cached files
+* Fixed missing slashes in inline HTML, JS and CSS files when using CDN
+* Fixed auto mode of minify filename length test
+* Fixed NetDNA / MaxCDN testing when domain does not match domain zone settings
+* Fixed CurlException and NetDNA / MaxCDN
+* Fixed pull zone dropdown not showing or showing wrong zone
+* Fixed trailing slash and redirect with apache
+* Fixed false notification for page cache rules verification
+* Fixed duplicate notifications for FTP
+* Fixed empty FTP form
+* Fixed add-in file validation
+* Fixed browser cache headers for proxy cases
+* Fixed wrong slash in Minify filepaths on windows based sites
+* Fixed settings link in minify test failure and multisite
+* Fixed missing param in canonical link generation
+* Fixed PHP 5.2 compatibility
+* Fixed handling of minify in preview mode
+* Fixed order of operation issue on install tab for nginx
+* Fixed translatable strings handling
+* Fixed page cache debug mode issues
+* Fixed home URL handling in multisite
+* Fixed manual minify mode and path based file source for sub-directory installations
+* Fixed path not set in disk enhanced caching
+* Fixed page cache rewrite rule detection
+* Improved security with esc_* usage
+* Improved backend performance with extensive refactoring
+
+= 0.9.2.11 =
+* Fixed issue with MaxCDN and authorization key
+* Fixed issue with WordPress in subfolder
+* Fixed issue with moved/renamed wp-content and plugin folder
+* Fixed issue with CDN and Minify Auto in Network with site wide CDN settings
+* Fixed issue with late init
+* Fixed minor UI issue
+* Fixed issue with possible OAuth name conflict
+* Fixed issue with CDN and cnames replacement of minify urls
+* Fixed issue with HTML debug comments being added to unsupported content
+* Improved minify auto filename for single install
+* Added minor improvement to NFS optimization with Page Cache
+* Added option to disable the Minify Auto filename length test and use a manual value
+* Removed unused file
+
 = 0.9.2.10 =
 * Added NetDNA / MaxCDN dashboard widget
 * Added zone dropdown for NetDNA and MaxCDN CDNs

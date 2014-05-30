@@ -162,7 +162,7 @@ FPPaste.prototype.GetState = function(){
 
 FCKCommands.RegisterCommand( 'foliopress-more', new FPMore( 'foliopress-more' ) );
 var oMore = new FCKToolbarButton( 'foliopress-more', 'WordPress Read More', null, null, false, true );
-oMore.IconPath = FCKConfig.PluginsPath + 'foliopress-wp/images/more.png';
+oMore.IconPath = FCKConfig.PluginsPath + 'foliopress-wp/images/more.gif';
 FCKToolbarItems.RegisterItem( 'foliopress-more', oMore );
 
 FCKCommands.RegisterCommand( 'foliopress-next', new FPNext( 'foliopress-next' ) );

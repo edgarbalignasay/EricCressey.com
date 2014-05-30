@@ -16,20 +16,22 @@ class W3_Plugin_MinifyAdmin extends W3_Plugin {
 
     function run() {
 
-        if (!is_network_admin() && $this->_config->get_boolean('minify.auto') && false === get_transient('w3tc_minify_tested_filename_length')) {
-            add_action('wp_ajax_w3tc_minify_disable_filename_test', array($this, 'disable_filename_test'));
-            add_action('wp_ajax_w3tc_minify_change_filename_length', array($this, 'change_filename_length'));
-            w3_require_once(W3TC_LIB_W3_DIR . '/Request.php');
+        if (!$this->_config->get_boolean('minify.auto.disable_filename_length_test', false)) {
+            if (!is_network_admin() && $this->_config->get_boolean('minify.auto') && false === get_transient('w3tc_minify_tested_filename_length')) {
+                add_action('wp_ajax_w3tc_minify_disable_filename_test', array($this, 'disable_filename_test'));
+                add_action('wp_ajax_w3tc_minify_change_filename_length', array($this, 'change_filename_length'));
+                w3_require_once(W3TC_LIB_W3_DIR . '/Request.php');
 
-            $page = W3_Request::get_string('page');
-            if (strpos($page, 'w3tc_') === 0) {
-                add_action( 'admin_print_scripts', array($this, 'print_script'),10000);
-                add_action( 'admin_print_scripts', array($this, 'print_test_once_script'),10000);
+                $page = W3_Request::get_string('page');
+                if (strpos($page, 'w3tc_') === 0) {
+                    add_action( 'admin_print_scripts', array($this, 'print_script'),10000);
+                    add_action( 'admin_print_scripts', array($this, 'print_test_once_script'),10000);
 
-                add_action('admin_notices', array(
-                    &$this,
-                    'admin_notices_minify_auto_test'
-                ));
+                    add_action('admin_notices', array(
+                        &$this,
+                        'admin_notices_minify_auto_test'
+                    ));
+                }
             }
         }
     }
@@ -98,6 +100,7 @@ class W3_Plugin_MinifyAdmin extends W3_Plugin {
 
     function print_script() { ?>
         <script type="text/javascript">
+            var w3_use_network_link = <?php echo w3_force_master() ? 'true' : 'false' ?>;
             function w3tc_start_minify_try_solve() {
                 var testUrl = '<?php echo w3_filename_to_url(w3_cache_blog_dir('minify').'/') ?>';
                 w3tc_filename_auto_solve(testUrl);

@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: SEO Smart Links
-Version: 2.7.6
+Version: 2.7.8
 Plugin URI: http://www.prelovac.com/vladimir/wordpress-plugins/seo-smart-links
 Author: Vladimir Prelovac
 Author URI: http://www.prelovac.com/vladimir
@@ -49,7 +49,7 @@ class SEOLinks {
 
 	function admin_notice() {
 		
-	  echo '<div class="updated" style="text-align: center;"><p style="font-size:13px">Get <a target="_blank" href="http://www.prelovac.com/products/seo-smart-links">SEO Smart Links Premium</a> with more features, better optimization and email support. <a target="_blank" href="http://www.prelovac.com/products/seo-smart-links/#new">Click to open full list of new features</a></p><p style="text-align:right"><a href="options-general.php?page=seo-links.php&notice=1">hide</a></p></div>';
+	  echo '<div class="updated" style="text-align: center;"><p style="font-size:13px">Get <a target="_blank" href="http://www.prelovac.com/products/seo-smart-links">SEO Smart Links Premium</a> with great features, 6x performance and support. <a target="_blank" href="http://www.prelovac.com/products/seo-smart-links/#new">Click to open full list of new features</a></p><p style="text-align:right"><a href="options-general.php?page=seo-links.php&notice=1">hide</a></p></div>';
 		
 	}
 
