@@ -54,56 +54,52 @@ mixpanel.init("eda64be9a5ead0a360c14ce8d5286c42");</script><!-- end Mixpanel -->
     }
 
     // Track Form Signups
-    jQuery(function($) {
-	    mixpanel.track_forms("form.track-form", "Form Signup", function(ele) {
-	        var name = $("input.name", ele).val();
-	        var email = $("input.email", ele).val();
-	        if (email) {
-		        
-		        // Optimizely Conversion
-		        window.optimizely = window.optimizely || []; 
-		        window.optimizely.push(['trackEvent', "email_opt_in"]);
-		        
-		        // Qualaroo Identify
-		        window._kiq = window._kiq || []; 
-		        window._kiq.push(["identify", email]);
-		        
-		        if (name) { mixpanel.name_tag(name); }
-		        else { mixpanel.name_tag(email); }
-		        
-		        mixpanel.people.set({
-		            "$email": email,
-		            "$name": name
-		        });
+    mixpanel.track_forms("form.track-form", "Form Signup", function(ele) {
+        var name = $("input.name", ele).val();
+        var email = $("input.email", ele).val();
+        if (email) {
+	        
+	        // Optimizely Conversion
+	        window.optimizely = window.optimizely || []; 
+	        window.optimizely.push(['trackEvent', "email_opt_in"]);
+	        
+	        // Qualaroo Identify
+	        window._kiq = window._kiq || []; 
+	        window._kiq.push(["identify", email]);
+	        
+	        if (name) { mixpanel.name_tag(name); }
+	        else { mixpanel.name_tag(email); }
+	        
+	        mixpanel.people.set({
+	            "$email": email,
+	            "$name": name
+	        });
 
-		        mixpanel.register({
-		            "Email": email,
-		            "Name": name
-		        });
+	        mixpanel.register({
+	            "Email": email,
+	            "Name": name
+	        });
 
-		        mixpanel.alias(email);
-		        var returnVars = { 
-		            "Page": window.location.href,
-		            "Form Name": $(ele).data("formName")
-		        };
+	        mixpanel.alias(email);
+	        var returnVars = { 
+	            "Page": window.location.href,
+	            "Form Name": $(ele).data("formName")
+	        };
 
-		        return returnVars;
-		    } else { 
-		    	return false;
-		    }
-	    });
-	});
+	        return returnVars;
+	    } else { 
+	    	return false;
+	    }
+    });
 	
 	// Track Link Clicks
-	jQuery(function($) {
-		mixpanel.track_links("a.track-click", "Click", function(ele) {
-			var returnVars = { 
-				"Page": window.location.href,
-				"Link": $(ele).attr("href") || "",
-				"Click Name": $(ele).data("name")
-			};
-			return returnVars;
-		});
+	mixpanel.track_links("a.track-click", "Click", function(ele) {
+		var returnVars = { 
+			"Page": window.location.href,
+			"Link": $(ele).attr("href") || "",
+			"Click Name": $(ele).data("name")
+		};
+		return returnVars;
 	});
 
 <?php if (is_front_page()) { /* Homepage */ ?>
