@@ -21,14 +21,91 @@ mixpanel.init("eda64be9a5ead0a360c14ce8d5286c42");</script><!-- end Mixpanel -->
 		return returnVars;
 	});
 
-	mixpanel.track_links("a.track-click", "Click", function(ele) {
-		var returnVars = { 
-			"Page": window.location.href,
-			"Link": $(ele).attr("href") || "",
-			"Click Name": $(ele).data("name")
-		};
-		return returnVars;
+	var clickBankAff = _optly.getParameterByName("cbaffi").toLowerCase() || "";
+    if (clickBankAff && clickBankAff != "0" && clickBankAff != 0) {
+      mixpanel.register({
+        "Clickbank Affiliate": clickBankAff
+      });
+      mixpanel.people.set({
+        "Clickbank Affiliate": clickBankAff
+      });
+    }
+
+	// ?hop= code
+	var clickBankAff = _optly.getParameterByName("hop").toLowerCase() || "";
+    if (clickBankAff && clickBankAff != "0" && clickBankAff != 0) {
+      mixpanel.register({
+        "Clickbank Affiliate": clickBankAff
+      });
+      mixpanel.people.set({
+        "Clickbank Affiliate": clickBankAff
+      });
+    }
+
+    // ?ref= code
+    var refCode = _optly.getParameterByName("ref") || "";
+    if (refCode && refCode != "0" && refCode != 0 && refCode.indexOf("@") == -1) {
+      mixpanel.register({
+        "Referral Code": refCode
+      });
+      mixpanel.people.set({
+        "Referral Code": refCode
+      });
+    }
+
+    // Track Form Signups
+    jQuery(function($) {
+	    mixpanel.track_forms("form.track-form", "Form Signup", function(ele) {
+	        var name = $("input.name", ele).val();
+	        var email = $("input.email", ele).val();
+	        if (email) {
+		        
+		        // Optimizely Conversion
+		        window.optimizely = window.optimizely || []; 
+		        window.optimizely.push(['trackEvent', "email_opt_in"]);
+		        
+		        // Qualaroo Identify
+		        window._kiq = window._kiq || []; 
+		        window._kiq.push(["identify", email]);
+		        
+		        if (name) { mixpanel.name_tag(name); }
+		        else { mixpanel.name_tag(email); }
+		        
+		        mixpanel.people.set({
+		            "$email": email,
+		            "$name": name
+		        });
+
+		        mixpanel.register({
+		            "Email": email,
+		            "Name": name
+		        });
+
+		        mixpanel.alias(email);
+		        var returnVars = { 
+		            "Page": window.location.href,
+		            "Form Name": $(ele).data("formName")
+		        };
+
+		        return returnVars;
+		    } else { 
+		    	return false;
+		    }
+	    });
 	});
+	
+	// Track Link Clicks
+	jQuery(function($) {
+		mixpanel.track_links("a.track-click", "Click", function(ele) {
+			var returnVars = { 
+				"Page": window.location.href,
+				"Link": $(ele).attr("href") || "",
+				"Click Name": $(ele).data("name")
+			};
+			return returnVars;
+		});
+	});
+
 <?php if (is_front_page()) { /* Homepage */ ?>
 	mixpanel.track("Viewed Homepage");
 <?php } ?>
@@ -69,31 +146,6 @@ mixpanel.init("eda64be9a5ead0a360c14ce8d5286c42");</script><!-- end Mixpanel -->
 <?php if (is_author()) { /* Author Page */ ?>
 	mixpanel.track("Viewed Author");
 <?php } ?>
-
-<?php /* Track Front Page Email Form *GOAL* */ ?>
-	mixpanel.track_forms("form#EmailOptIn", "Email Opt In", function(ele) {
-		// Optimizely Conversion
-		window.optimizely = window.optimizely || []; 
-		window.optimizely.push(['trackEvent', "email_opt_in"]);
-		
-		mixpanel.name_tag($("input[name=Email1]", ele).val());
-		mixpanel.people.set({
-			"$email": $("input[name=Email1]", ele).val(),
-			"$name": $("input[name=Name]", ele).val()
-		});
-		mixpanel.register({
-			"Email": $("input[name=Email1]", ele).val(),
-			"Name": $("input[name=Name]", ele).val()
-		});
-		mixpanel.alias($("input[name=Email1]", ele).val());
-		var returnVars = { 
-			"Email": $("input[name=Email1]", ele).val(),
-			"Name": $("input[name=Name]", ele).val(),
-			"Page": window.location.href,
-			"Form Name": $(ele).data("formName")
-		};
-		return returnVars;
-	});
 
 </script>
 <?php

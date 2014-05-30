@@ -32,13 +32,13 @@ $(document).ready(function() {
 
 </div>
 
-<form name="form1" method="post" action="https://www.mcssl.com/app/contactsave.asp"><input id="merchantid" name="merchantid" type="hidden" value="84520" /> <input id="ARThankyouURL" name="ARThankyouURL" type="hidden" value="http://ericcressey.com/cressey-performance-post-throwing-stretch-series" /> <input id="copyarresponse" name="copyarresponse" type="hidden" value="1" /> <input id="custom" name="custom" type="hidden" value="0" /> <input id="defaultar" name="defaultar" type="hidden" value="548504" /> <input id="allowmulti" name="allowmulti" type="hidden" value="0" /> <input id="visiblefields" name="visiblefields" type="hidden" value="Name,Email1" /> <input id="requiredfields" name="requiredfields" type="hidden" value="Email1" />
+<form name="form1" class="track-form" method="post" action="https://www.mcssl.com/app/contactsave.asp" validate="validate" data-form-name="Deadlift Popup"><input id="merchantid" name="merchantid" type="hidden" value="84520" /> <input id="ARThankyouURL" name="ARThankyouURL" type="hidden" value="http://ericcressey.com/cressey-performance-post-throwing-stretch-series" /> <input id="copyarresponse" name="copyarresponse" type="hidden" value="1" /> <input id="custom" name="custom" type="hidden" value="0" /> <input id="defaultar" name="defaultar" type="hidden" value="548504" /> <input id="allowmulti" name="allowmulti" type="hidden" value="0" /> <input id="visiblefields" name="visiblefields" type="hidden" value="Name,Email1" /> <input id="requiredfields" name="requiredfields" type="hidden" value="Email1" />
 <table width="100%">
 <tr>
 <td style="text-align:center">
-<input name="Name" type="text" onfocus="if(this.value == this.defaultValue) this.value = ''" value="Name" style="background:url(/popup/textbox.png); height: 17px; width: 200px; border:none; color:#fff; font-size:14px; font-weight:bold; padding:7px; margin-top:0px;"/></td>
+<input name="Name" class="name" type="text" onfocus="if(this.value == this.defaultValue) this.value = ''" value="Name" style="background:url(/popup/textbox.png); height: 17px; width: 200px; border:none; color:#fff; font-size:14px; font-weight:bold; padding:7px; margin-top:0px;" /></td>
 <td style="text-align:center">
-<input name="Email1" type="text" onfocus="if(this.value == this.defaultValue) this.value = ''" value="Email" style="background:url(/popup/textbox.png); height: 17px; width: 200px; border:none; color:#fff; font-size:14px; font-weight:bold; padding:7px; margin-top:0px;"/></td>
+<input name="Email1" class="email" type="email" onfocus="if(this.value == this.defaultValue) this.value = ''" value="Email" style="background:url(/popup/textbox.png); height: 17px; width: 200px; border:none; color:#fff; font-size:14px; font-weight:bold; padding:7px; margin-top:0px;" required="required" /></td>
 <td style="text-align:center">
 <input name="cmdSubmit" type="Submit" value="" style="background:url(/popup/button.png); height: 31px; width: 214px; border:none; cursor:pointer;"/></td>
 </tr>
