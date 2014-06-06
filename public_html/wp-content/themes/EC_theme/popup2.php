@@ -32,7 +32,7 @@ $(document).ready(function() {
 
 </div>
 
-<form name="form1" class="track-form" method="post" action="https://www.mcssl.com/app/contactsave.asp" validate="validate" data-form-name="Baseball Popup"><input id="merchantid" name="merchantid" type="hidden" value="84520" /> <input id="ARThankyouURL" name="ARThankyouURL" type="hidden" value="http://ericcressey.com/cressey-performance-post-throwing-stretch-series" /> <input id="copyarresponse" name="copyarresponse" type="hidden" value="1" /> <input id="custom" name="custom" type="hidden" value="0" /> <input id="defaultar" name="defaultar" type="hidden" value="548504" /> <input id="allowmulti" name="allowmulti" type="hidden" value="0" /> <input id="visiblefields" name="visiblefields" type="hidden" value="Name,Email1" /> <input id="requiredfields" name="requiredfields" type="hidden" value="Email1" />
+<form name="form1" class="track-form" method="post" action="https://www.mcssl.com/app/contactsave.asp" validate="validate" data-form-name="Baseball Popup"><input id="merchantid" name="merchantid" type="hidden" value="84520" /> <input id="ARThankyouURL" name="ARThankyouURL" type="hidden" value="http://ericcressey.com/cressey-performance-post-throwing-stretch-series/?email_verify=1" /> <input id="copyarresponse" name="copyarresponse" type="hidden" value="1" /> <input id="custom" name="custom" type="hidden" value="0" /> <input id="defaultar" name="defaultar" type="hidden" value="548504" /> <input id="allowmulti" name="allowmulti" type="hidden" value="0" /> <input id="visiblefields" name="visiblefields" type="hidden" value="Name,Email1" /> <input id="requiredfields" name="requiredfields" type="hidden" value="Email1" />
 <table width="100%">
 <tr>
 <td style="text-align:center">

@@ -13,7 +13,7 @@
 
 <form action="https://www.mcssl.com/app/contactsave.asp" method="post" validate="validate" class="track-form" data-form-name="Baseball Right Column"> 
 <input id="merchantid" name="merchantid" type="hidden" value="84520" /> 
- <input id="ARThankyouURL" name="ARThankyouURL" type="hidden" value="www.1shoppingcart.com/app/thankyou.asp?ID=84520" /> 
+ <input id="ARThankyouURL" name="ARThankyouURL" type="hidden" value="www.ericcressey.com/?email_verify=1" /> 
  <input id="copyarresponse" name="copyarresponse" type="hidden" value="1" /> 
  <input id="custom" name="custom" type="hidden" value="0" /> 
  <input id="defaultar" name="defaultar" type="hidden" value="548504" /> 

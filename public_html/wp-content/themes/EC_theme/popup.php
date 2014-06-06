@@ -13,7 +13,7 @@ $(document).ready(function() {
 <div style="display:none;">
 <div id="popup" style="background:url(/popup/bg.png); width:800px; height:60px; padding-top:340px;">
 
-<form action="https://www.mcssl.com/app/contactsave.asp" method="post" class="track-form" validate="validate" data-form-name="Deadlift Popup"><input id="merchantid" name="merchantid" type="hidden" value="84520" /> <input id="ARThankyouURL" name="ARThankyouURL" type="hidden" value="www.ericcressey.com" /> <input id="copyarresponse" name="copyarresponse" type="hidden" value="1" /> <input id="custom" name="custom" type="hidden" value="0" /> <input id="defaultar" name="defaultar" type="hidden" value="178309" /> <input id="allowmulti" name="allowmulti" type="hidden" value="0" /> <input id="visiblefields" name="visiblefields" type="hidden" value="Name,Email1" /> <input id="requiredfields" name="requiredfields" type="hidden" value="Email1" />
+<form action="https://www.mcssl.com/app/contactsave.asp" method="post" class="track-form" validate="validate" data-form-name="Deadlift Popup"><input id="merchantid" name="merchantid" type="hidden" value="84520" /> <input id="ARThankyouURL" name="ARThankyouURL" type="hidden" value="www.ericcressey.com/?email_verify=1" /> <input id="copyarresponse" name="copyarresponse" type="hidden" value="1" /> <input id="custom" name="custom" type="hidden" value="0" /> <input id="defaultar" name="defaultar" type="hidden" value="178309" /> <input id="allowmulti" name="allowmulti" type="hidden" value="0" /> <input id="visiblefields" name="visiblefields" type="hidden" value="Name,Email1" /> <input id="requiredfields" name="requiredfields" type="hidden" value="Email1" />
 <table width="100%">
 <tr>
 <td style="text-align:center">
