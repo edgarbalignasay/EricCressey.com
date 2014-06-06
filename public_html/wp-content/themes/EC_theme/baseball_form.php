@@ -11,7 +11,7 @@
 
 
 
-<form action="https://www.mcssl.com/app/contactsave.asp" method="post"> 
+<form action="https://www.mcssl.com/app/contactsave.asp" method="post" validate="validate" class="track-form" data-form-name="Baseball Right Column"> 
 <input id="merchantid" name="merchantid" type="hidden" value="84520" /> 
  <input id="ARThankyouURL" name="ARThankyouURL" type="hidden" value="www.1shoppingcart.com/app/thankyou.asp?ID=84520" /> 
  <input id="copyarresponse" name="copyarresponse" type="hidden" value="1" /> 
@@ -19,16 +19,16 @@
  <input id="defaultar" name="defaultar" type="hidden" value="548504" /> 
  <input id="allowmulti" name="allowmulti" type="hidden" value="0" /> 
  <input id="visiblefields" name="visiblefields" type="hidden" value="Name,Email1" /> 
- <input id="requiredfields" name="requiredfields" type="hidden" value="Name,Email1" />
+ <input id="requiredfields" name="requiredfields" type="hidden" value="Email1" />
 <table border="0" cellspacing="2" width="205">
 <tbody>
 <tr>
 <td style="font-size:90%; color:#ffffff;" >Name:*</td>
-<td><input name="Name" type="text" /></td>
+<td><input name="Name" class="name" type="text" /></td>
 </tr>
 <tr>
 <td style="font-size:90%; color:#ffffff;">Email:*</td>
-<td><input name="Email1" type="text" /></td>
+<td><input name="Email1" type="email" required="required" class="email" /></td>
 </tr>
 <tr align="center">
 <td colspan="2"><input class="orange_button" name="cmdSubmit" type="Submit" value="Get Access Now!" /></td>
