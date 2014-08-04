@@ -28,20 +28,16 @@
 				'paged'          => $paged,
 				'posts_per_page' => 10
 			)); ?>
-
+			<div class="posts-holder">
 			<?php query_posts('category_name='.$post->post_name); if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<?php $search = array('<p style="text-align: left;">','</p>')?>
-			<div class="posts-holder">
 				<div class="posts">
 					<div class="content"><img src="<?php echo catch_that_image();?>"></div>
-					<h2><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-					<a class="a-blue" href="<?php the_permalink(); ?>"><i class="fa fa-angle-right"></i>Read more</a>
+					<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
+					<a class="a-blue learn-more" href="<?php the_permalink(); ?>"><i class="fa fa-angle-right"></i>Learn more</a>
 				</div>
-			</div>
-
-		 
 		<?php endwhile;?>
-			<span class="pagination">Page <?php my_pagination(); ?></span>
+		</div>
 
 		<?php else : ?>
 		  <p><strong>There has been a glitch in the Matrix.</strong><br />

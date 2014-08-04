@@ -89,6 +89,9 @@
  	include 'products_featured.php';
  	include 'featured.php';
  	include 'categories.php';
+ } else {
+ 	include 'featured.php';
+ 	include 'categories.php';
  }
 ?>
 

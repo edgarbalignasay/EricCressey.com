@@ -659,8 +659,29 @@
 }
 .products .hph-featured .hph-price i { font-size: 17px; margin-right: 5px }
 
-.products .post-holder { width: 100%; }
-.products .posts { display: inline-block; }
+.products .posts-holder { display: inline-block; width: 100%; }
+.products .posts {
+	background-color: #F2F2F2;
+	display: inline-block;
+	margin: 15px 6px 0;
+	min-height: 255px;
+	padding: 17px;
+	position: relative;
+	vertical-align: top;
+	width: 18%;
+}
+.products .posts img { width: 100% }
+.products .posts .learn-more { 
+	display: block;
+    background-color: #c1272d;
+    bottom: 11px;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    position: absolute;
+    text-align: center;
+    width: 60%;
+}
+.products .posts .content {  height: 185px; }
 /* Sidebar */
 .col-2-left { background: transparent; }
 .ec-section td:last-of-type { width: 37%; }
