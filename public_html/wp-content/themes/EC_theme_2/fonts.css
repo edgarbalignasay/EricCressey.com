@@ -1,0 +1,23 @@
+/* Roboto Condensed Light */
+@font-face {
+    font-family: 'Roboto Condensed Light';
+    src: url('fonts/RobotoCondensed-Light.eot');
+    src: url('fonts/RobotoCondensed-Light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RobotoCondensed-Light.woff') format('woff'),
+         url('fonts/RobotoCondensed-Light.ttf') format('truetype'),
+         url('fonts/RobotoCondensed-Light.svg#gill-sansbold') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Roboto Condensed Regular */
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('fonts/RobotoCondensed-Regular.eot');
+    src: url('fonts/RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RobotoCondensed-Regular.woff') format('woff'),
+         url('fonts/RobotoCondensed-Regular.ttf') format('truetype'),
+         url('fonts/RobotoCondensed-Regular.svg#gill-sansbold') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
