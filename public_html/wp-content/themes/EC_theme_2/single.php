@@ -1,10 +1,5 @@
-<?php get_header(); 
+<?php get_header(); ?>
 
-?>
- <?php
- 	include 'featured.php';
- 	include 'categories.php';
-?>
 <div class="pag">
 <table class="pg">
 	<tr>
