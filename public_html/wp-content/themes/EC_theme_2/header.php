@@ -30,6 +30,7 @@
 </head>
 <body>
 
+<?php if(is_home()) { $post->post_name = 'home';  } ?>
 <?php echo '<!--'; echo $post->post_name; echo '-->';?>
 
 <?php 
@@ -79,19 +80,19 @@
 	*/?>
  <?php
  
- if ($post->post_name == 'home'){
+ if (is_page("Home") || $post->post_name == 'home' || is_home()){
  	include '3-block.php';
- } else if ($post->post_name == 'blog') {
+ } else if (is_page("blog") || $post->post_name == 'blog') {
   	include 'blog_featured.php';
  	include 'featured.php';
- 	include 'categories.php';
- } else if ($post->post_name == 'products') {
+ 	insert_categories();
+ } else if (is_page("products") || $post->post_name == 'products') {
  	include 'products_featured.php';
  	include 'featured.php';
- 	include 'categories.php';
+ 	insert_categories();
  } else {
  	include 'featured.php';
- 	include 'categories.php';
+ 	insert_categories();
  }
 ?>
 

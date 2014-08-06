@@ -64,4 +64,14 @@ function catch_that_image() {
   }
   return $first_img;
 }
+
+include('categories.php');
+
+add_filter('pre_get_posts', 'limit_category_posts');
+function limit_category_posts($query){
+    if ($query->is_category) {
+        $query->set('posts_per_page', 3);
+    }
+    return $query;
+}
 ?>
