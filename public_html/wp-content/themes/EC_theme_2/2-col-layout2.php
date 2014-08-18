@@ -2,6 +2,7 @@
 	<tr>
 	<td class="col-2-left
 	<?php echo $post->post_name;?><?php if($post->post_name=='baseball-content'){ echo ' blog'; }?>">
+	<?php include('subscription.php');?>
 	<?php if($post->post_name == 'products' ) {?>
 		<div class="hph-featured">
 			<div>

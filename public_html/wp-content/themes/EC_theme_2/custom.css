@@ -82,14 +82,14 @@
 	text-align: left;
 }
 .ads-container:before { 
-	background: url('images/new_images/ec_image.png') no-repeat;
+	background: url('images/new_images/ec_image2.png') no-repeat;
 	background-position: 0 10px;
-	background-size: 474px;
+	background-size: 505px;
 	content: '';
 	display: block;
 	height: 383px;
 	position: absolute;
-	width: 480px;
+	width: 503px;
 }
 
 .pg { margin: auto; width: 972px; }
@@ -130,11 +130,11 @@
 	font-size: 15px;
 	letter-spacing: .5px;
 	margin-left: 23px;
-	margin-top: 20px;
+	margin-top: 16px;
 	width: 409px;
 }
 .ads-container .lower-container p em { display: block; }
-.ads-container .lower-container p em:last-of-type { margin-top: 9px; }
+.ads-container .lower-container p em:last-of-type { margin-top: 4px; }
 .ads-container .lower-container a {
 	background-color: #C1272D;
 	color: #FFFFFF;
@@ -297,6 +297,8 @@
 	width: 0;
 }
 
+.subs .learn { margin-left: 0; padding-right: 0; width: 185px; }
+.subs .learn span:first-of-type { font-size: 40px; width: 123px; }
 /* Featured Magazine */
 .featured-magazine { background-color: #2C2C2C; }
 .featured-magazine .container { text-align: left; }
@@ -835,7 +837,6 @@
 
 /* pop up design */
 .fancybox-inner { margin: auto; }
-/*.fancybox-skin { background-color: #2C2C2C !important; }*/
 .new-popup { width: 970px; }
 .new-popup .featured-magazine p { font-size: 14px; margin-right: 0; }
 .new-popup .featured-magazine img { margin: 0 0 0 36px; }

@@ -77,7 +77,7 @@
 			</div>
 		</div>
 	</div>
-	<?php get_sidebar(); ?>
+	
 	
 	</td>
 	</tr>
