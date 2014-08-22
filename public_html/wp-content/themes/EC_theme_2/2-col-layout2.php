@@ -1,8 +1,35 @@
 <table class="pg">
 	<tr>
+		<td class="res-ec-section">
+			<table class="ec-section">
+				<tr>
+					<td><img src="<?php bloginfo('stylesheet_directory'); ?>
+					/images/new_images/ec_image.jpg"/></td>
+					<td>
+						<h3>About Eric</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+						elit. Integer aliquam.</p>
+						<a href="" class="read-full"><i class="fa fa-angle-right"></i>Read Full Bio</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<span>Follow me around the web</span>
+						<div class="social-button side-social">
+							<a><i class="fa fa-facebook"></i><span>30,000 likes</span></a>
+							<a><i class="fa fa-twitter"></i><span>3,000 followers</span></a>
+							<a><i class="fa fa-play"></i><span>300 subscribers</span></a>
+							<a><i class="fa fa-instagram"></i><span>300 followers</span></a>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
 	<td class="col-2-left
 	<?php echo $post->post_name;?><?php if($post->post_name=='baseball-content'){ echo ' blog'; }?>">
-	<?php include('subscription.php');?>
+	<?php /* include('subscription.php'); */?>
 	<?php if($post->post_name == 'products' ) {?>
 		<div class="hph-featured">
 			<div>

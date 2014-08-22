@@ -3,7 +3,7 @@
 	<script src="//cdn.optimizely.com/js/197200755.js"></script>
  <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
  <title></title>
- 
+ <!-- <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/styles/bootstrap.css" type="text/css" media="screen" /> -->
  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/global.css" type="text/css" media="screen" />
  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/awesome.css" type="text/css" media="screen" />
  <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/fonts.css" type="text/css" media="screen" />
@@ -20,6 +20,7 @@
 <?php wp_head(); ?>	
  
 <script type="text/javascript" src="/scripts/jquery.js"></script>
+<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/scripts/bootstrap.js"></script>
 
 <!-- Add fancyBox -->
 <link rel="stylesheet" href="/scripts/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
@@ -68,6 +69,14 @@
 				</td>
 		</table>
 	</div>
+</div>
+<div class="res-header header">
+	<div class="container">
+		<h1><img src="<?php bloginfo('stylesheet_directory'); ?>
+		/images/new_images/logo.png" title="eric cressey"/></h1>
+		<nav>
+			<a href="javascript:void(0);"><i class="fa fa-bars"></i><span>Menu</span></a>
+			 <ul class="res-menu"><?php insert_menu_res(); ?></ul></nav></div>
 </div>
  <?php /*
  

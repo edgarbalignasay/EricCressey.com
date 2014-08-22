@@ -1,4 +1,4 @@
-<table class="pg">
+<table class="pg home">
 	<tr>
 		<td>
 			<h2>LATES ARTICLES & BLOG POSTS</h2>

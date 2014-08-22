@@ -20,7 +20,7 @@
 </div>
 <!-- Email -->
 <div class="features clearfix">
-	<div class="container">
+	<div class="container clearfix">
 		<div class="email">
 			<form method="" action="">
 				<input type="text" value="" placeholder="Enter your email" />
@@ -60,11 +60,26 @@
 	</div>
 </div>
 
-<div class="container social-button">
+<div class="container social-button soc-but">
 	<span>Follow me around the web</span>
 	<a><i class="fa fa-facebook"></i><span>30,000 likes</span></a>
 	<a><i class="fa fa-twitter"></i><span>3,000 followers</span></a>
 	<a><i class="fa fa-play"></i><span>300 subscribers</span></a>
 	<a><i class="fa fa-instagram"></i><span>300 followers</span></a>
 
+</div>
+<div class="res-ec-section main-social">
+	<table class="ec-section">
+		<tr>
+			<td>
+				<span>Follow me around the web</span>
+				<div class="social-button side-social">
+					<a><i class="fa fa-facebook"></i><span>30,000 likes</span></a>
+					<a><i class="fa fa-twitter"></i><span>3,000 followers</span></a>
+					<a><i class="fa fa-play"></i><span>300 subscribers</span></a>
+					<a><i class="fa fa-instagram"></i><span>300 followers</span></a>
+				</div>
+			</td>
+		</tr>
+	</table>
 </div>

@@ -25,6 +25,7 @@ if (!empty($queryStringArr)) {
 }
 
 include("ec_menu.php");
+include("ec_menu_res.php");
 
 // Tracking Scripts
 add_action('wp_head', 'include_meta_widgets');
