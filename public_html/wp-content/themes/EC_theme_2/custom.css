@@ -7,8 +7,9 @@
 	background-size: cover;
 	height: 87px;
 }
+.header .container { margin: auto;  width: 98%; }
 .header h1 { margin: 0; padding-bottom: 3px; padding-right: 15px; }
-.header .nav { display: block; padding-top: 34px; }
+.header .nav { display: block; margin: auto; padding-top: 34px; width: 1255px; }
 .header .nav a {
 	color: #FFFFFF;
 	display: block;
@@ -947,6 +948,41 @@
 
 /* RESPONSIVE
 ----------------------------------------------------------------------------- */
+@media (max-width: 1277px) {
+	/* Header */
+	.header { display: none; }
+	.res-header { display: block; }
+	.res-header h1 { float: left; margin-top: 27px; text-align: left; }
+	.res-header nav {
+		background-color: #5A5A5A;
+		float: right;
+		margin-top: 27px;
+		padding: 10px 25px;
+		position: relative;
+		cursor: pointer;
+	}
+	.res-header nav > a span { margin-left: 10px; }
+	.res-header nav:hover > .res-menu { display: block; z-index: 1; }
+	.res-header .res-menu { display: none; }
+	.res-header .res-menu a:first-of-type {
+		color: #FFFFFF;
+		display: block;
+		padding: 5px 13px;
+	}
+	.res-header nav a:first-child { color: #FFFFFF;  padding: 5px 13px; }
+	.res-header .res-menu {
+		background-color: #5A5A5A;
+		left: 0;
+		margin-top: 10px;
+		padding-left: 0;
+		position: absolute;
+		width: 100%;
+	}
+	.res-header .res-menu li {
+		list-style: none;
+		margin: 10px 0;
+	}
+}
 
 /* Large devices (large desktops) */
 @media (max-width: 1200px) {
@@ -987,38 +1023,6 @@
 	.pg { margin: auto; width: auto; }
 	.pg.home { margin: 0 20px; }
 	.container { margin: 0 20px; width: auto; }
-	.header { display: none; }
-	.res-header { display: block; }
-	.res-header h1 { float: left; margin-top: 27px; text-align: left; }
-	.res-header nav {
-		background-color: #5A5A5A;
-		float: right;
-		margin-top: 27px;
-		padding: 10px;
-		position: relative;
-		cursor: pointer;
-	}
-	.res-header nav > a span { margin-left: 10px; }
-	.res-header nav:hover > .res-menu { display: block; z-index: 1; }
-	.res-header .res-menu { display: none; }
-	.res-header .res-menu a:first-of-type {
-		color: #FFFFFF;
-		display: block;
-		padding: 5px 13px;
-	}
-	.res-header nav a:first-child { color: #FFFFFF;  padding: 5px 13px; }
-	.res-header .res-menu {
-		background-color: #5A5A5A;
-		left: 0;
-		margin-top: 10px;
-		padding-left: 0;
-		position: absolute;
-		width: 100%;
-	}
-	.res-header .res-menu li {
-		list-style: none;
-		margin: 10px 0;
-	}
 
 	/* Categories */
 	.categories { display: none; }
