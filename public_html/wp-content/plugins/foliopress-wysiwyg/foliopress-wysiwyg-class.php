@@ -5,7 +5,7 @@
  * Main class that handles all implementation of plugin into WordPress. All WordPress actions and filters are handled here
  *  
  * @author Foliovision s.r.o. <info@foliovision.com>
- * @version 2.6.8.7
+ * @version 2.6.11
  * @package foliopress-wysiwyg
  */
 
@@ -65,7 +65,7 @@ class fp_wysiwyg_class extends Foliopress_Plugin {
 	 * Plugin version
 	 * @var string
 	 */
-	var $strVersion = '2.6.8.7';
+	var $strVersion = '2.6.11';
 	/**
 	 * Custom options array.
 	 * Array of options that are stored in database:
@@ -224,7 +224,10 @@ class fp_wysiwyg_class extends Foliopress_Plugin {
 		}
 		$this->strFCKEditorPath = $strSite . 'wp-content/plugins/' . basename( dirname( __FILE__ ) ) . '/fckeditor/';
 		*/
-		$this->iEditorSize = 20 * intval( get_option( 'default_post_edit_rows' ) );
+    
+    
+    
+		$this->iEditorSize = 20 * intval( get_option( 'fv_default_post_edit_rows' ) );
 		if( $this->iEditorSize < 240 ) $this->iEditorSize = 240;
 
 		$this->aOptions = get_option( FV_FCK_OPTIONS );
@@ -330,10 +333,11 @@ class fp_wysiwyg_class extends Foliopress_Plugin {
 	 * Init certain variables
 	 */			
 	function admin_init() {
-    
-    if( version_compare( $this->strVersion, get_option( 'fp_wysiwyg_version') ) == 1 ) {
+    if( !get_option( 'fv_default_post_edit_rows' ) || version_compare( $this->strVersion, get_option( 'fp_wysiwyg_version') ) == 1 ) {
       if( get_option( 'default_post_edit_rows' ) < 20 ) {
-        update_option( 'default_post_edit_rows', 30 );
+        update_option( 'fv_default_post_edit_rows', 30 );
+      } else {
+        update_option( 'fv_default_post_edit_rows', get_option( 'default_post_edit_rows' ) );
       }
       update_option( 'fp_wysiwyg_version', $this->strVersion );
     }
@@ -436,6 +440,8 @@ class fp_wysiwyg_class extends Foliopress_Plugin {
 	
 	function checkUserAgent() {
 	  if( stripos( $_SERVER['HTTP_USER_AGENT'], 'MSIE 9.0' ) !== FALSE ) return 'ie9';
+          else if( stripos( $_SERVER['HTTP_USER_AGENT'], 'MSIE 10.0' ) !== FALSE ) return 'ie10';
+          else if(strpos($_SERVER['HTTP_USER_AGENT'], 'Trident/7.0; rv:11.0') !== FALSE) return 'ie11';
 	  else if( stripos( $_SERVER['HTTP_USER_AGENT'], 'iPad' ) !== FALSE ) return 'ipad';
 	  else return false;
 	}
@@ -521,7 +527,7 @@ class fp_wysiwyg_class extends Foliopress_Plugin {
   function FckLoadAdminHead(){		  
     if( ( strpos( $_SERVER['REQUEST_URI'], 'post-new.php' ) || strpos( $_SERVER['REQUEST_URI'], 'page-new.php' ) || strpos( $_SERVER['REQUEST_URI'], 'post.php' ) || strpos( $_SERVER['REQUEST_URI'], 'page.php' ) ) && post_type_supports( get_post_type(), 'editor' ) ) :
     ?>
-  <script type="text/javascript" src="<?php print( $this->strFCKEditorPath ); ?>fckeditor.js"></script>
+  <script type="text/javascript" src="<?php print( $this->strFCKEditorPath ); ?>fckeditor.js?ver=<?php echo $this->strVersion; ?>"></script>
   <style type="text/css">
   #quicktags { display: none; }
   </style>
@@ -1125,8 +1131,8 @@ class fp_wysiwyg_class extends Foliopress_Plugin {
 			/// This is regular saving of options that are on the main Options page
 			if( isset( $_POST['options_save'] ) ){
 			
-			  if( isset( $_POST['default_post_edit_rows'] ) ) {
-			    update_option('default_post_edit_rows', intval( $_POST['default_post_edit_rows'] ) );
+			  if( isset( $_POST['fv_default_post_edit_rows'] ) ) {
+			    update_option('fv_default_post_edit_rows', intval( $_POST['fv_default_post_edit_rows'] ) );
 			  }
 
 				$this->aOptions[self::FVC_IMAGES_CHANGED]=false;
@@ -1405,11 +1411,17 @@ class fp_wysiwyg_class extends Foliopress_Plugin {
   
   
   function the_editor( $content ) {
-    if( $this->checkUserAgent() == 'ie9' ) {
-      $content = '<p style="border-radius: 3px 3px 3px 3px; border-style: solid; border-width: 1px; padding: 0 0.6em; background-color: #FFEBE8; border-color: #CC0000; ">Internet Explorer 9 is currently having issues with Foliopress WYSIWYG. You can try to switch to IE8 in the IE9 Developer tools (hit F12 key).</p>'.$content;
-    } else if( $this->checkUserAgent() == 'ipad' ) {
+    $userAgent = $this->checkUserAgent();
+    if( $userAgent == 'ie9' ) {
+      $content = '<p style="border-radius: 3px 3px 3px 3px; border-style: solid; border-width: 1px; padding: 0 0.6em; background-color: #FFEBE8; border-color: #CC0000; ">Internet Explorer 9 is currently having issues with Foliopress WYSIWYG. You can try to switch to IE8 in the IE9 Developer tools (hit F12 key).<br/><br/>For proper functionality we recomend you to use Safari, Firefox or Chromium!</p>'.$content;
+    } else if($userAgent == 'ie10') {
+      $content = '<p style="border-radius: 3px 3px 3px 3px; border-style: solid; border-width: 1px; padding: 0 0.6em; background-color: #FFEBE8; border-color: #CC0000; ">Internet Explorer 10 is currently having issues with Foliopress WYSIWYG. You can try to switch to IE8 in the IE10 Developer tools (hit F12 key -> "Browser Mode" and "Document Mode").<br/><br/>For proper functionality we recomend you to use Safari, Firefox or Chromium!</p>'.$content;
+    } else if($userAgent == 'ie11') {
+      $content = '<p style="border-radius: 3px 3px 3px 3px; border-style: solid; border-width: 1px; padding: 0 0.6em; background-color: #FFEBE8; border-color: #CC0000; ">Internet Explorer 11 is currently having issues with Foliopress WYSIWYG. You can try to switch to IE8 in the IE11 Developer tools (hit F12 key -> Emulation -> "Document mode" and "User agent string").<br/><br/>For proper functionality we recomend you to use Safari, Firefox or Chromium!</p>'.$content;  
+    }else if( $userAgent == 'ipad' ) {
       $content = '<p style="border-radius: 3px 3px 3px 3px; border-style: solid; border-width: 1px; padding: 0 0.6em; background-color: #FFEBE8; border-color: #CC0000; ">Sorry, iPad is not currently supported. Please use Safari, Firefox, IE 7, IE 8 or Chromium!</p>'.$content;
     }
+    
 
     return $content;
   }
