@@ -1,6 +1,6 @@
 <div class="featured-magazine">
 	<div class="container">
-		<p>Eric Cressey has been featured in:</p>
+		<p>As featured in:</p>
 		<img src="<?php bloginfo('stylesheet_directory'); ?>/images/new_images/featured/
 		menshealth.png" />
 		<img src="<?php bloginfo('stylesheet_directory'); ?>/images/new_images/featured/

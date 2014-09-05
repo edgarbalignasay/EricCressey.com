@@ -14,7 +14,7 @@ $(document).ready(function() {
 <div id="popup" class="new-popup" style="background-color:#000000;">
 
 	<div class="featured-magazine">
-			<p>Eric Cressey has been featured in:</p>
+			<p>As featured in:</p>
 			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/new_images/featured/
 			menshealth.png" />
 			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/new_images/featured/

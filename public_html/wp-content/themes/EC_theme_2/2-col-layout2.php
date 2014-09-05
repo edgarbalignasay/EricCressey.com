@@ -111,8 +111,8 @@
 	<td class="col-2-right">
 	
 	<table class="ec-section">
-		<tr>
-			<td><img src="<?php bloginfo('stylesheet_directory'); ?>
+		<!--<tr>
+			<td><img src="<?php // bloginfo('stylesheet_directory'); ?>
 			/images/new_images/ec_image.jpg"/></td>
 			<td>
 				<h3>About Eric</h3>
@@ -120,7 +120,7 @@
 				elit. Integer aliquam.</p>
 				<a href="" class="read-full"><i class="fa fa-angle-right"></i>Read Full Bio</a>
 			</td>
-		</tr>
+		</tr>-->
 		<tr>
 			<td>
 				<span>Follow me around the web</span>
@@ -180,7 +180,7 @@
 		
 		<!-- <?php get_sidebar(); ?> -->
 	</div>
-	<!-- <?php get_sidebar(); ?> -->
+	<?php get_sidebar(); ?>
 	
 	</td>
 	</tr>

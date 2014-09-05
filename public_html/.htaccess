@@ -1,3 +1,8 @@
+php_value upload_max_filesize 500M
+php_value post_max_size 500M
+php_value max_execution_time 300
+php_value max_input_time 300
+
 #   BULLETPROOF .50.1 >>>>>>> SECURE .HTACCESS     
 
 # If you edit the  BULLETPROOF .50.1 >>>>>>> SECURE .HTACCESS text above
@@ -7,6 +12,36 @@
 # will need to edit the BPS /includes/functions.php file to match your changes
 # If you update your WordPress Permalinks the code between BEGIN WordPress and
 # END WordPress is replaced by WP htaccess code.
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
 # BEGIN WordPress
 
 # END WordPress

@@ -9,10 +9,7 @@
 			</div>
 		</div>
 		<div class="lower-container clearfix">
-			<p><em>&#8220;one of the best strength and conditioning
-			sites on the internet&#8221;</em>
-			<em>&#8220;...the work you put into the industry is 
-			something that could never be repaid&#8221;</em></p>
+			<?php echo do_shortcode('[testimonials_slider tags="testimonials" random=true]'); ?>
 			<a href="" ><i class="fa fa-angle-right"></i>
 			<span>Learn about the<br/> High Performance Handbook</span></a>
 		</div>
@@ -46,7 +43,7 @@
 
 <div class="featured-magazine">
 	<div class="container">
-		<p>Eric Cressey has been featured in:</p>
+		<p>As featured in:</p>
 		<img src="<?php bloginfo('stylesheet_directory'); ?>/images/new_images/featured/
 		menshealth.png" />
 		<img src="<?php bloginfo('stylesheet_directory'); ?>/images/new_images/featured/

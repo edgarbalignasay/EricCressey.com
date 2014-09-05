@@ -29,7 +29,7 @@
 <script type="text/javascript" src="/scripts/jquery.cookie.js"></script>
  
 </head>
-<body>
+<body <?php body_class( $class ); ?> >
 
 <?php if(is_home()) { $post->post_name = 'home';  } ?>
 <?php echo '<!--'; echo $post->post_name; echo '-->';?>
@@ -55,8 +55,9 @@
 	<div class="container">
 		<table class="nav">
 			<tr>
-				<td><h1><img src="<?php bloginfo('stylesheet_directory'); ?>
-				/images/new_images/logo.png" title="eric cressey"/></h1></td>
+				<td>
+                <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php bloginfo('stylesheet_directory'); ?>
+				/images/new_images/logo.png" title="eric cressey"/></a></h1></td>
    				<?php insert_menu(); ?>
 				<td>
 					<form class="search-bar" action="http://www.google.com/cse" id="cse-search-box" target="_blank">
